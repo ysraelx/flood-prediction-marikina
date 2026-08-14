@@ -1,0 +1,641 @@
+2026-07-01 14:38:57,853 [ERROR]   REQUEST ERROR: obscd=11103107 date=2025-08-01 | 404 Client Error:  for url: https://pasig-marikina-tullahanffws.pagasa.dost.gov.ph/water/rainfall/detail_list.do
+2026-07-01 14:41:06,365 [INFO]   OK 11103107 | 2025-08-01 | 144 records fetched
+2026-07-01 14:41:35,503 [INFO] ============================================================
+2026-07-01 14:41:35,505 [INFO] RAINFALL SCRAPE
+2026-07-01 14:41:35,505 [INFO] Window   : 2025-07-01 -> 2025-11-30
+2026-07-01 14:41:35,505 [INFO] Stations : ['Marikina (Youth Camp)', 'Boso Boso']
+2026-07-01 14:41:35,505 [INFO] Total requests : ~306
+2026-07-01 14:41:35,507 [INFO] Output   : ../data/raw/rainfall_raw.csv
+2026-07-01 14:41:35,507 [INFO] ============================================================
+2026-07-01 14:41:35,507 [INFO] Fetching: Marikina (Youth Camp) | 2025-07-01
+2026-07-01 14:41:35,935 [INFO]   OK 11103107 | 2025-07-01 | 144 records fetched
+2026-07-01 14:41:37,442 [INFO] Fetching: Boso Boso | 2025-07-01
+2026-07-01 14:41:37,851 [INFO]   OK 11103103 | 2025-07-01 | 144 records fetched
+2026-07-01 14:41:39,364 [INFO] Fetching: Marikina (Youth Camp) | 2025-07-02
+2026-07-01 14:41:39,794 [INFO]   OK 11103107 | 2025-07-02 | 144 records fetched
+2026-07-01 14:41:41,308 [INFO] Fetching: Boso Boso | 2025-07-02
+2026-07-01 14:41:41,716 [INFO]   OK 11103103 | 2025-07-02 | 144 records fetched
+2026-07-01 14:41:43,222 [INFO] Fetching: Marikina (Youth Camp) | 2025-07-03
+2026-07-01 14:41:43,631 [INFO]   OK 11103107 | 2025-07-03 | 144 records fetched
+2026-07-01 14:41:45,145 [INFO] Fetching: Boso Boso | 2025-07-03
+2026-07-01 14:41:45,523 [INFO]   OK 11103103 | 2025-07-03 | 144 records fetched
+2026-07-01 14:41:47,037 [INFO] Fetching: Marikina (Youth Camp) | 2025-07-04
+2026-07-01 14:41:47,451 [INFO]   OK 11103107 | 2025-07-04 | 144 records fetched
+2026-07-01 14:41:48,958 [INFO] Fetching: Boso Boso | 2025-07-04
+2026-07-01 14:41:49,359 [INFO]   OK 11103103 | 2025-07-04 | 144 records fetched
+2026-07-01 14:41:50,879 [INFO] Fetching: Marikina (Youth Camp) | 2025-07-05
+2026-07-01 14:41:51,300 [INFO]   OK 11103107 | 2025-07-05 | 144 records fetched
+2026-07-01 14:41:52,803 [INFO] Fetching: Boso Boso | 2025-07-05
+2026-07-01 14:41:53,284 [INFO]   OK 11103103 | 2025-07-05 | 144 records fetched
+2026-07-01 14:41:54,799 [INFO] Fetching: Marikina (Youth Camp) | 2025-07-06
+2026-07-01 14:41:55,189 [INFO]   OK 11103107 | 2025-07-06 | 144 records fetched
+2026-07-01 14:41:56,693 [INFO] Fetching: Boso Boso | 2025-07-06
+2026-07-01 14:41:57,100 [INFO]   OK 11103103 | 2025-07-06 | 144 records fetched
+2026-07-01 14:41:58,608 [INFO] Fetching: Marikina (Youth Camp) | 2025-07-07
+2026-07-01 14:41:59,019 [INFO]   OK 11103107 | 2025-07-07 | 144 records fetched
+2026-07-01 14:42:00,532 [INFO] Fetching: Boso Boso | 2025-07-07
+2026-07-01 14:42:00,944 [INFO]   OK 11103103 | 2025-07-07 | 144 records fetched
+2026-07-01 14:42:02,457 [INFO] Fetching: Marikina (Youth Camp) | 2025-07-08
+2026-07-01 14:42:02,906 [INFO]   OK 11103107 | 2025-07-08 | 144 records fetched
+2026-07-01 14:42:04,419 [INFO] Fetching: Boso Boso | 2025-07-08
+2026-07-01 14:42:04,961 [INFO]   OK 11103103 | 2025-07-08 | 144 records fetched
+2026-07-01 14:42:06,466 [INFO] Fetching: Marikina (Youth Camp) | 2025-07-09
+2026-07-01 14:42:06,869 [INFO]   OK 11103107 | 2025-07-09 | 144 records fetched
+2026-07-01 14:42:08,377 [INFO] Fetching: Boso Boso | 2025-07-09
+2026-07-01 14:42:08,852 [INFO]   OK 11103103 | 2025-07-09 | 144 records fetched
+2026-07-01 14:42:10,370 [INFO] Fetching: Marikina (Youth Camp) | 2025-07-10
+2026-07-01 14:42:10,760 [INFO]   OK 11103107 | 2025-07-10 | 144 records fetched
+2026-07-01 14:42:12,264 [INFO] Fetching: Boso Boso | 2025-07-10
+2026-07-01 14:42:12,666 [INFO]   OK 11103103 | 2025-07-10 | 144 records fetched
+2026-07-01 14:42:12,712 [INFO]   [Checkpoint] 20/306 done | 2880 records saved
+2026-07-01 14:42:14,229 [INFO] Fetching: Marikina (Youth Camp) | 2025-07-11
+2026-07-01 14:42:14,631 [INFO]   OK 11103107 | 2025-07-11 | 144 records fetched
+2026-07-01 14:42:16,142 [INFO] Fetching: Boso Boso | 2025-07-11
+2026-07-01 14:42:16,556 [INFO]   OK 11103103 | 2025-07-11 | 144 records fetched
+2026-07-01 14:42:18,074 [INFO] Fetching: Marikina (Youth Camp) | 2025-07-12
+2026-07-01 14:42:18,583 [INFO]   OK 11103107 | 2025-07-12 | 144 records fetched
+2026-07-01 14:42:20,100 [INFO] Fetching: Boso Boso | 2025-07-12
+2026-07-01 14:42:20,623 [INFO]   OK 11103103 | 2025-07-12 | 144 records fetched
+2026-07-01 14:42:22,131 [INFO] Fetching: Marikina (Youth Camp) | 2025-07-13
+2026-07-01 14:42:22,815 [INFO]   OK 11103107 | 2025-07-13 | 144 records fetched
+2026-07-01 14:42:24,327 [INFO] Fetching: Boso Boso | 2025-07-13
+2026-07-01 14:42:24,783 [INFO]   OK 11103103 | 2025-07-13 | 144 records fetched
+2026-07-01 14:42:26,290 [INFO] Fetching: Marikina (Youth Camp) | 2025-07-14
+2026-07-01 14:42:26,683 [INFO]   OK 11103107 | 2025-07-14 | 144 records fetched
+2026-07-01 14:42:28,192 [INFO] Fetching: Boso Boso | 2025-07-14
+2026-07-01 14:42:29,159 [INFO]   OK 11103103 | 2025-07-14 | 144 records fetched
+2026-07-01 14:42:30,667 [INFO] Fetching: Marikina (Youth Camp) | 2025-07-15
+2026-07-01 14:42:31,174 [INFO]   OK 11103107 | 2025-07-15 | 144 records fetched
+2026-07-01 14:42:32,679 [INFO] Fetching: Boso Boso | 2025-07-15
+2026-07-01 14:42:33,069 [INFO]   OK 11103103 | 2025-07-15 | 144 records fetched
+2026-07-01 14:42:34,576 [INFO] Fetching: Marikina (Youth Camp) | 2025-07-16
+2026-07-01 14:42:34,963 [INFO]   OK 11103107 | 2025-07-16 | 144 records fetched
+2026-07-01 14:42:36,472 [INFO] Fetching: Boso Boso | 2025-07-16
+2026-07-01 14:42:36,864 [INFO]   OK 11103103 | 2025-07-16 | 144 records fetched
+2026-07-01 14:42:38,375 [INFO] Fetching: Marikina (Youth Camp) | 2025-07-17
+2026-07-01 14:42:38,769 [INFO]   OK 11103107 | 2025-07-17 | 144 records fetched
+2026-07-01 14:42:40,281 [INFO] Fetching: Boso Boso | 2025-07-17
+2026-07-01 14:42:40,697 [INFO]   OK 11103103 | 2025-07-17 | 144 records fetched
+2026-07-01 14:42:42,209 [INFO] Fetching: Marikina (Youth Camp) | 2025-07-18
+2026-07-01 14:42:42,592 [INFO]   OK 11103107 | 2025-07-18 | 144 records fetched
+2026-07-01 14:42:44,105 [INFO] Fetching: Boso Boso | 2025-07-18
+2026-07-01 14:42:44,752 [INFO]   OK 11103103 | 2025-07-18 | 144 records fetched
+2026-07-01 14:42:46,269 [INFO] Fetching: Marikina (Youth Camp) | 2025-07-19
+2026-07-01 14:42:46,692 [INFO]   OK 11103107 | 2025-07-19 | 144 records fetched
+2026-07-01 14:42:48,192 [INFO] Fetching: Boso Boso | 2025-07-19
+2026-07-01 14:42:48,681 [INFO]   OK 11103103 | 2025-07-19 | 144 records fetched
+2026-07-01 14:42:50,195 [INFO] Fetching: Marikina (Youth Camp) | 2025-07-20
+2026-07-01 14:42:50,602 [INFO]   OK 11103107 | 2025-07-20 | 144 records fetched
+2026-07-01 14:42:52,116 [INFO] Fetching: Boso Boso | 2025-07-20
+2026-07-01 14:42:52,757 [INFO]   OK 11103103 | 2025-07-20 | 144 records fetched
+2026-07-01 14:42:52,809 [INFO]   [Checkpoint] 40/306 done | 5760 records saved
+2026-07-01 14:42:54,320 [INFO] Fetching: Marikina (Youth Camp) | 2025-07-21
+2026-07-01 14:42:54,739 [INFO]   OK 11103107 | 2025-07-21 | 144 records fetched
+2026-07-01 14:42:56,249 [INFO] Fetching: Boso Boso | 2025-07-21
+2026-07-01 14:42:56,641 [INFO]   OK 11103103 | 2025-07-21 | 144 records fetched
+2026-07-01 14:42:58,151 [INFO] Fetching: Marikina (Youth Camp) | 2025-07-22
+2026-07-01 14:42:58,567 [INFO]   OK 11103107 | 2025-07-22 | 144 records fetched
+2026-07-01 14:43:00,075 [INFO] Fetching: Boso Boso | 2025-07-22
+2026-07-01 14:43:00,476 [INFO]   OK 11103103 | 2025-07-22 | 144 records fetched
+2026-07-01 14:43:01,984 [INFO] Fetching: Marikina (Youth Camp) | 2025-07-23
+2026-07-01 14:43:02,457 [INFO]   OK 11103107 | 2025-07-23 | 144 records fetched
+2026-07-01 14:43:03,974 [INFO] Fetching: Boso Boso | 2025-07-23
+2026-07-01 14:43:04,405 [INFO]   OK 11103103 | 2025-07-23 | 144 records fetched
+2026-07-01 14:43:05,916 [INFO] Fetching: Marikina (Youth Camp) | 2025-07-24
+2026-07-01 14:43:06,321 [INFO]   OK 11103107 | 2025-07-24 | 144 records fetched
+2026-07-01 14:43:07,826 [INFO] Fetching: Boso Boso | 2025-07-24
+2026-07-01 14:43:08,228 [INFO]   OK 11103103 | 2025-07-24 | 144 records fetched
+2026-07-01 14:43:09,732 [INFO] Fetching: Marikina (Youth Camp) | 2025-07-25
+2026-07-01 14:43:10,139 [INFO]   OK 11103107 | 2025-07-25 | 144 records fetched
+2026-07-01 14:43:11,644 [INFO] Fetching: Boso Boso | 2025-07-25
+2026-07-01 14:43:12,039 [INFO]   OK 11103103 | 2025-07-25 | 144 records fetched
+2026-07-01 14:43:13,543 [INFO] Fetching: Marikina (Youth Camp) | 2025-07-26
+2026-07-01 14:43:13,963 [INFO]   OK 11103107 | 2025-07-26 | 144 records fetched
+2026-07-01 14:43:15,469 [INFO] Fetching: Boso Boso | 2025-07-26
+2026-07-01 14:43:15,884 [INFO]   OK 11103103 | 2025-07-26 | 144 records fetched
+2026-07-01 14:43:17,396 [INFO] Fetching: Marikina (Youth Camp) | 2025-07-27
+2026-07-01 14:43:17,866 [INFO]   OK 11103107 | 2025-07-27 | 144 records fetched
+2026-07-01 14:43:19,376 [INFO] Fetching: Boso Boso | 2025-07-27
+2026-07-01 14:43:19,801 [INFO]   OK 11103103 | 2025-07-27 | 144 records fetched
+2026-07-01 14:43:21,314 [INFO] Fetching: Marikina (Youth Camp) | 2025-07-28
+2026-07-01 14:43:21,719 [INFO]   OK 11103107 | 2025-07-28 | 144 records fetched
+2026-07-01 14:43:23,236 [INFO] Fetching: Boso Boso | 2025-07-28
+2026-07-01 14:43:23,692 [INFO]   OK 11103103 | 2025-07-28 | 144 records fetched
+2026-07-01 14:43:25,211 [INFO] Fetching: Marikina (Youth Camp) | 2025-07-29
+2026-07-01 14:43:25,618 [INFO]   OK 11103107 | 2025-07-29 | 144 records fetched
+2026-07-01 14:43:27,128 [INFO] Fetching: Boso Boso | 2025-07-29
+2026-07-01 14:43:27,528 [INFO]   OK 11103103 | 2025-07-29 | 144 records fetched
+2026-07-01 14:43:29,041 [INFO] Fetching: Marikina (Youth Camp) | 2025-07-30
+2026-07-01 14:43:29,543 [INFO]   OK 11103107 | 2025-07-30 | 144 records fetched
+2026-07-01 14:43:31,047 [INFO] Fetching: Boso Boso | 2025-07-30
+2026-07-01 14:43:31,484 [INFO]   OK 11103103 | 2025-07-30 | 144 records fetched
+2026-07-01 14:43:31,584 [INFO]   [Checkpoint] 60/306 done | 8640 records saved
+2026-07-01 14:43:33,095 [INFO] Fetching: Marikina (Youth Camp) | 2025-07-31
+2026-07-01 14:43:33,521 [INFO]   OK 11103107 | 2025-07-31 | 144 records fetched
+2026-07-01 14:43:35,030 [INFO] Fetching: Boso Boso | 2025-07-31
+2026-07-01 14:43:35,431 [INFO]   OK 11103103 | 2025-07-31 | 144 records fetched
+2026-07-01 14:43:36,940 [INFO] Fetching: Marikina (Youth Camp) | 2025-08-01
+2026-07-01 14:43:37,349 [INFO]   OK 11103107 | 2025-08-01 | 144 records fetched
+2026-07-01 14:43:38,856 [INFO] Fetching: Boso Boso | 2025-08-01
+2026-07-01 14:43:39,245 [INFO]   OK 11103103 | 2025-08-01 | 144 records fetched
+2026-07-01 14:43:40,754 [INFO] Fetching: Marikina (Youth Camp) | 2025-08-02
+2026-07-01 14:43:41,215 [INFO]   OK 11103107 | 2025-08-02 | 144 records fetched
+2026-07-01 14:43:42,717 [INFO] Fetching: Boso Boso | 2025-08-02
+2026-07-01 14:43:43,114 [INFO]   OK 11103103 | 2025-08-02 | 144 records fetched
+2026-07-01 14:43:44,621 [INFO] Fetching: Marikina (Youth Camp) | 2025-08-03
+2026-07-01 14:43:45,046 [INFO]   OK 11103107 | 2025-08-03 | 144 records fetched
+2026-07-01 14:43:46,553 [INFO] Fetching: Boso Boso | 2025-08-03
+2026-07-01 14:43:46,965 [INFO]   OK 11103103 | 2025-08-03 | 144 records fetched
+2026-07-01 14:43:48,468 [INFO] Fetching: Marikina (Youth Camp) | 2025-08-04
+2026-07-01 14:43:48,889 [INFO]   OK 11103107 | 2025-08-04 | 144 records fetched
+2026-07-01 14:43:50,404 [INFO] Fetching: Boso Boso | 2025-08-04
+2026-07-01 14:43:50,839 [INFO]   OK 11103103 | 2025-08-04 | 144 records fetched
+2026-07-01 14:43:52,355 [INFO] Fetching: Marikina (Youth Camp) | 2025-08-05
+2026-07-01 14:43:52,774 [INFO]   OK 11103107 | 2025-08-05 | 144 records fetched
+2026-07-01 14:43:54,282 [INFO] Fetching: Boso Boso | 2025-08-05
+2026-07-01 14:43:54,700 [INFO]   OK 11103103 | 2025-08-05 | 144 records fetched
+2026-07-01 14:43:56,218 [INFO] Fetching: Marikina (Youth Camp) | 2025-08-06
+2026-07-01 14:43:56,678 [INFO]   OK 11103107 | 2025-08-06 | 144 records fetched
+2026-07-01 14:43:58,184 [INFO] Fetching: Boso Boso | 2025-08-06
+2026-07-01 14:43:58,604 [INFO]   OK 11103103 | 2025-08-06 | 144 records fetched
+2026-07-01 14:44:00,118 [INFO] Fetching: Marikina (Youth Camp) | 2025-08-07
+2026-07-01 14:44:00,526 [INFO]   OK 11103107 | 2025-08-07 | 144 records fetched
+2026-07-01 14:44:02,031 [INFO] Fetching: Boso Boso | 2025-08-07
+2026-07-01 14:44:02,483 [INFO]   OK 11103103 | 2025-08-07 | 144 records fetched
+2026-07-01 14:44:03,988 [INFO] Fetching: Marikina (Youth Camp) | 2025-08-08
+2026-07-01 14:44:04,394 [INFO]   OK 11103107 | 2025-08-08 | 144 records fetched
+2026-07-01 14:44:05,920 [INFO] Fetching: Boso Boso | 2025-08-08
+2026-07-01 14:44:06,325 [INFO]   OK 11103103 | 2025-08-08 | 144 records fetched
+2026-07-01 14:44:07,834 [INFO] Fetching: Marikina (Youth Camp) | 2025-08-09
+2026-07-01 14:44:08,351 [INFO]   OK 11103107 | 2025-08-09 | 144 records fetched
+2026-07-01 14:44:09,862 [INFO] Fetching: Boso Boso | 2025-08-09
+2026-07-01 14:44:10,374 [INFO]   OK 11103103 | 2025-08-09 | 144 records fetched
+2026-07-01 14:44:10,484 [INFO]   [Checkpoint] 80/306 done | 11520 records saved
+2026-07-01 14:44:11,991 [INFO] Fetching: Marikina (Youth Camp) | 2025-08-10
+2026-07-01 14:44:12,418 [INFO]   OK 11103107 | 2025-08-10 | 144 records fetched
+2026-07-01 14:44:13,923 [INFO] Fetching: Boso Boso | 2025-08-10
+2026-07-01 14:44:14,334 [INFO]   OK 11103103 | 2025-08-10 | 144 records fetched
+2026-07-01 14:44:15,846 [INFO] Fetching: Marikina (Youth Camp) | 2025-08-11
+2026-07-01 14:44:16,378 [INFO]   OK 11103107 | 2025-08-11 | 144 records fetched
+2026-07-01 14:44:17,891 [INFO] Fetching: Boso Boso | 2025-08-11
+2026-07-01 14:44:18,323 [INFO]   OK 11103103 | 2025-08-11 | 144 records fetched
+2026-07-01 14:44:19,826 [INFO] Fetching: Marikina (Youth Camp) | 2025-08-12
+2026-07-01 14:44:20,258 [INFO]   OK 11103107 | 2025-08-12 | 144 records fetched
+2026-07-01 14:44:21,771 [INFO] Fetching: Boso Boso | 2025-08-12
+2026-07-01 14:44:22,181 [INFO]   OK 11103103 | 2025-08-12 | 144 records fetched
+2026-07-01 14:44:23,700 [INFO] Fetching: Marikina (Youth Camp) | 2025-08-13
+2026-07-01 14:44:24,118 [INFO]   OK 11103107 | 2025-08-13 | 144 records fetched
+2026-07-01 14:44:25,625 [INFO] Fetching: Boso Boso | 2025-08-13
+2026-07-01 14:44:26,061 [INFO]   OK 11103103 | 2025-08-13 | 144 records fetched
+2026-07-01 14:44:27,569 [INFO] Fetching: Marikina (Youth Camp) | 2025-08-14
+2026-07-01 14:44:27,977 [INFO]   OK 11103107 | 2025-08-14 | 144 records fetched
+2026-07-01 14:44:29,485 [INFO] Fetching: Boso Boso | 2025-08-14
+2026-07-01 14:44:29,927 [INFO]   OK 11103103 | 2025-08-14 | 144 records fetched
+2026-07-01 14:44:31,435 [INFO] Fetching: Marikina (Youth Camp) | 2025-08-15
+2026-07-01 14:44:31,837 [INFO]   OK 11103107 | 2025-08-15 | 144 records fetched
+2026-07-01 14:44:33,343 [INFO] Fetching: Boso Boso | 2025-08-15
+2026-07-01 14:44:33,848 [INFO]   OK 11103103 | 2025-08-15 | 144 records fetched
+2026-07-01 14:44:35,354 [INFO] Fetching: Marikina (Youth Camp) | 2025-08-16
+2026-07-01 14:44:35,805 [INFO]   OK 11103107 | 2025-08-16 | 144 records fetched
+2026-07-01 14:44:37,311 [INFO] Fetching: Boso Boso | 2025-08-16
+2026-07-01 14:44:37,720 [INFO]   OK 11103103 | 2025-08-16 | 144 records fetched
+2026-07-01 14:44:39,234 [INFO] Fetching: Marikina (Youth Camp) | 2025-08-17
+2026-07-01 14:44:39,625 [INFO]   OK 11103107 | 2025-08-17 | 144 records fetched
+2026-07-01 14:44:41,141 [INFO] Fetching: Boso Boso | 2025-08-17
+2026-07-01 14:44:41,576 [INFO]   OK 11103103 | 2025-08-17 | 144 records fetched
+2026-07-01 14:44:43,091 [INFO] Fetching: Marikina (Youth Camp) | 2025-08-18
+2026-07-01 14:44:43,505 [INFO]   OK 11103107 | 2025-08-18 | 144 records fetched
+2026-07-01 14:44:45,009 [INFO] Fetching: Boso Boso | 2025-08-18
+2026-07-01 14:44:45,728 [INFO]   OK 11103103 | 2025-08-18 | 144 records fetched
+2026-07-01 14:44:47,240 [INFO] Fetching: Marikina (Youth Camp) | 2025-08-19
+2026-07-01 14:44:47,684 [INFO]   OK 11103107 | 2025-08-19 | 144 records fetched
+2026-07-01 14:44:49,189 [INFO] Fetching: Boso Boso | 2025-08-19
+2026-07-01 14:44:49,599 [INFO]   OK 11103103 | 2025-08-19 | 144 records fetched
+2026-07-01 14:44:49,725 [INFO]   [Checkpoint] 100/306 done | 14400 records saved
+2026-07-01 14:44:51,226 [INFO] Fetching: Marikina (Youth Camp) | 2025-08-20
+2026-07-01 14:44:51,665 [INFO]   OK 11103107 | 2025-08-20 | 144 records fetched
+2026-07-01 14:44:53,174 [INFO] Fetching: Boso Boso | 2025-08-20
+2026-07-01 14:44:53,602 [INFO]   OK 11103103 | 2025-08-20 | 144 records fetched
+2026-07-01 14:44:55,115 [INFO] Fetching: Marikina (Youth Camp) | 2025-08-21
+2026-07-01 14:44:55,532 [INFO]   OK 11103107 | 2025-08-21 | 144 records fetched
+2026-07-01 14:44:57,043 [INFO] Fetching: Boso Boso | 2025-08-21
+2026-07-01 14:44:57,505 [INFO]   OK 11103103 | 2025-08-21 | 144 records fetched
+2026-07-01 14:44:59,024 [INFO] Fetching: Marikina (Youth Camp) | 2025-08-22
+2026-07-01 14:44:59,434 [INFO]   OK 11103107 | 2025-08-22 | 144 records fetched
+2026-07-01 14:45:00,944 [INFO] Fetching: Boso Boso | 2025-08-22
+2026-07-01 14:45:01,333 [INFO]   OK 11103103 | 2025-08-22 | 144 records fetched
+2026-07-01 14:45:02,850 [INFO] Fetching: Marikina (Youth Camp) | 2025-08-23
+2026-07-01 14:45:03,250 [INFO]   OK 11103107 | 2025-08-23 | 144 records fetched
+2026-07-01 14:45:04,755 [INFO] Fetching: Boso Boso | 2025-08-23
+2026-07-01 14:45:05,170 [INFO]   OK 11103103 | 2025-08-23 | 144 records fetched
+2026-07-01 14:45:06,676 [INFO] Fetching: Marikina (Youth Camp) | 2025-08-24
+2026-07-01 14:45:07,114 [INFO]   OK 11103107 | 2025-08-24 | 144 records fetched
+2026-07-01 14:45:08,626 [INFO] Fetching: Boso Boso | 2025-08-24
+2026-07-01 14:45:09,044 [INFO]   OK 11103103 | 2025-08-24 | 144 records fetched
+2026-07-01 14:45:10,552 [INFO] Fetching: Marikina (Youth Camp) | 2025-08-25
+2026-07-01 14:45:11,020 [INFO]   OK 11103107 | 2025-08-25 | 144 records fetched
+2026-07-01 14:45:12,524 [INFO] Fetching: Boso Boso | 2025-08-25
+2026-07-01 14:45:12,920 [INFO]   OK 11103103 | 2025-08-25 | 144 records fetched
+2026-07-01 14:45:14,434 [INFO] Fetching: Marikina (Youth Camp) | 2025-08-26
+2026-07-01 14:45:14,818 [INFO]   OK 11103107 | 2025-08-26 | 144 records fetched
+2026-07-01 14:45:16,323 [INFO] Fetching: Boso Boso | 2025-08-26
+2026-07-01 14:45:16,850 [INFO]   OK 11103103 | 2025-08-26 | 144 records fetched
+2026-07-01 14:45:18,369 [INFO] Fetching: Marikina (Youth Camp) | 2025-08-27
+2026-07-01 14:45:18,899 [INFO]   OK 11103107 | 2025-08-27 | 144 records fetched
+2026-07-01 14:45:20,412 [INFO] Fetching: Boso Boso | 2025-08-27
+2026-07-01 14:45:20,827 [INFO]   OK 11103103 | 2025-08-27 | 144 records fetched
+2026-07-01 14:45:22,334 [INFO] Fetching: Marikina (Youth Camp) | 2025-08-28
+2026-07-01 14:45:22,744 [INFO]   OK 11103107 | 2025-08-28 | 144 records fetched
+2026-07-01 14:45:24,249 [INFO] Fetching: Boso Boso | 2025-08-28
+2026-07-01 14:45:24,641 [INFO]   OK 11103103 | 2025-08-28 | 144 records fetched
+2026-07-01 14:45:26,148 [INFO] Fetching: Marikina (Youth Camp) | 2025-08-29
+2026-07-01 14:45:26,548 [INFO]   OK 11103107 | 2025-08-29 | 144 records fetched
+2026-07-01 14:45:28,059 [INFO] Fetching: Boso Boso | 2025-08-29
+2026-07-01 14:45:28,759 [INFO]   OK 11103103 | 2025-08-29 | 144 records fetched
+2026-07-01 14:45:28,988 [INFO]   [Checkpoint] 120/306 done | 17280 records saved
+2026-07-01 14:45:30,492 [INFO] Fetching: Marikina (Youth Camp) | 2025-08-30
+2026-07-01 14:45:30,916 [INFO]   OK 11103107 | 2025-08-30 | 144 records fetched
+2026-07-01 14:45:32,428 [INFO] Fetching: Boso Boso | 2025-08-30
+2026-07-01 14:45:33,034 [INFO]   OK 11103103 | 2025-08-30 | 144 records fetched
+2026-07-01 14:45:34,542 [INFO] Fetching: Marikina (Youth Camp) | 2025-08-31
+2026-07-01 14:45:34,935 [INFO]   OK 11103107 | 2025-08-31 | 144 records fetched
+2026-07-01 14:45:36,436 [INFO] Fetching: Boso Boso | 2025-08-31
+2026-07-01 14:45:36,814 [INFO]   OK 11103103 | 2025-08-31 | 144 records fetched
+2026-07-01 14:45:38,323 [INFO] Fetching: Marikina (Youth Camp) | 2025-09-01
+2026-07-01 14:45:38,728 [INFO]   OK 11103107 | 2025-09-01 | 144 records fetched
+2026-07-01 14:45:40,254 [INFO] Fetching: Boso Boso | 2025-09-01
+2026-07-01 14:45:40,646 [INFO]   OK 11103103 | 2025-09-01 | 144 records fetched
+2026-07-01 14:45:42,151 [INFO] Fetching: Marikina (Youth Camp) | 2025-09-02
+2026-07-01 14:45:42,654 [INFO]   OK 11103107 | 2025-09-02 | 144 records fetched
+2026-07-01 14:45:44,160 [INFO] Fetching: Boso Boso | 2025-09-02
+2026-07-01 14:45:44,565 [INFO]   OK 11103103 | 2025-09-02 | 144 records fetched
+2026-07-01 14:45:46,090 [INFO] Fetching: Marikina (Youth Camp) | 2025-09-03
+2026-07-01 14:45:46,734 [INFO]   OK 11103107 | 2025-09-03 | 144 records fetched
+2026-07-01 14:45:48,242 [INFO] Fetching: Boso Boso | 2025-09-03
+2026-07-01 14:45:48,630 [INFO]   OK 11103103 | 2025-09-03 | 144 records fetched
+2026-07-01 14:45:50,142 [INFO] Fetching: Marikina (Youth Camp) | 2025-09-04
+2026-07-01 14:45:50,566 [INFO]   OK 11103107 | 2025-09-04 | 144 records fetched
+2026-07-01 14:45:52,083 [INFO] Fetching: Boso Boso | 2025-09-04
+2026-07-01 14:45:52,784 [INFO]   OK 11103103 | 2025-09-04 | 144 records fetched
+2026-07-01 14:45:54,294 [INFO] Fetching: Marikina (Youth Camp) | 2025-09-05
+2026-07-01 14:45:54,834 [INFO]   OK 11103107 | 2025-09-05 | 144 records fetched
+2026-07-01 14:45:56,350 [INFO] Fetching: Boso Boso | 2025-09-05
+2026-07-01 14:45:56,745 [INFO]   OK 11103103 | 2025-09-05 | 144 records fetched
+2026-07-01 14:45:58,252 [INFO] Fetching: Marikina (Youth Camp) | 2025-09-06
+2026-07-01 14:45:58,654 [INFO]   OK 11103107 | 2025-09-06 | 144 records fetched
+2026-07-01 14:46:00,157 [INFO] Fetching: Boso Boso | 2025-09-06
+2026-07-01 14:46:00,580 [INFO]   OK 11103103 | 2025-09-06 | 144 records fetched
+2026-07-01 14:46:02,094 [INFO] Fetching: Marikina (Youth Camp) | 2025-09-07
+2026-07-01 14:46:02,522 [INFO]   OK 11103107 | 2025-09-07 | 144 records fetched
+2026-07-01 14:46:04,031 [INFO] Fetching: Boso Boso | 2025-09-07
+2026-07-01 14:46:04,448 [INFO]   OK 11103103 | 2025-09-07 | 144 records fetched
+2026-07-01 14:46:05,964 [INFO] Fetching: Marikina (Youth Camp) | 2025-09-08
+2026-07-01 14:46:06,370 [INFO]   OK 11103107 | 2025-09-08 | 144 records fetched
+2026-07-01 14:46:07,880 [INFO] Fetching: Boso Boso | 2025-09-08
+2026-07-01 14:46:08,293 [INFO]   OK 11103103 | 2025-09-08 | 144 records fetched
+2026-07-01 14:46:08,464 [INFO]   [Checkpoint] 140/306 done | 20160 records saved
+2026-07-01 14:46:09,972 [INFO] Fetching: Marikina (Youth Camp) | 2025-09-09
+2026-07-01 14:46:10,398 [INFO]   OK 11103107 | 2025-09-09 | 144 records fetched
+2026-07-01 14:46:11,914 [INFO] Fetching: Boso Boso | 2025-09-09
+2026-07-01 14:46:12,328 [INFO]   OK 11103103 | 2025-09-09 | 144 records fetched
+2026-07-01 14:46:13,835 [INFO] Fetching: Marikina (Youth Camp) | 2025-09-10
+2026-07-01 14:46:14,255 [INFO]   OK 11103107 | 2025-09-10 | 144 records fetched
+2026-07-01 14:46:15,759 [INFO] Fetching: Boso Boso | 2025-09-10
+2026-07-01 14:46:16,242 [INFO]   OK 11103103 | 2025-09-10 | 144 records fetched
+2026-07-01 14:46:17,755 [INFO] Fetching: Marikina (Youth Camp) | 2025-09-11
+2026-07-01 14:46:18,155 [INFO]   OK 11103107 | 2025-09-11 | 144 records fetched
+2026-07-01 14:46:19,655 [INFO] Fetching: Boso Boso | 2025-09-11
+2026-07-01 14:46:20,129 [INFO]   OK 11103103 | 2025-09-11 | 144 records fetched
+2026-07-01 14:46:21,639 [INFO] Fetching: Marikina (Youth Camp) | 2025-09-12
+2026-07-01 14:46:22,082 [INFO]   OK 11103107 | 2025-09-12 | 144 records fetched
+2026-07-01 14:46:23,598 [INFO] Fetching: Boso Boso | 2025-09-12
+2026-07-01 14:46:23,999 [INFO]   OK 11103103 | 2025-09-12 | 144 records fetched
+2026-07-01 14:46:25,506 [INFO] Fetching: Marikina (Youth Camp) | 2025-09-13
+2026-07-01 14:46:25,916 [INFO]   OK 11103107 | 2025-09-13 | 144 records fetched
+2026-07-01 14:46:27,424 [INFO] Fetching: Boso Boso | 2025-09-13
+2026-07-01 14:46:27,816 [INFO]   OK 11103103 | 2025-09-13 | 144 records fetched
+2026-07-01 14:46:29,332 [INFO] Fetching: Marikina (Youth Camp) | 2025-09-14
+2026-07-01 14:46:29,753 [INFO]   OK 11103107 | 2025-09-14 | 144 records fetched
+2026-07-01 14:46:31,263 [INFO] Fetching: Boso Boso | 2025-09-14
+2026-07-01 14:46:31,812 [INFO]   OK 11103103 | 2025-09-14 | 144 records fetched
+2026-07-01 14:46:33,325 [INFO] Fetching: Marikina (Youth Camp) | 2025-09-15
+2026-07-01 14:46:33,735 [INFO]   OK 11103107 | 2025-09-15 | 144 records fetched
+2026-07-01 14:46:35,244 [INFO] Fetching: Boso Boso | 2025-09-15
+2026-07-01 14:46:35,638 [INFO]   OK 11103103 | 2025-09-15 | 144 records fetched
+2026-07-01 14:46:37,155 [INFO] Fetching: Marikina (Youth Camp) | 2025-09-16
+2026-07-01 14:46:37,574 [INFO]   OK 11103107 | 2025-09-16 | 144 records fetched
+2026-07-01 14:46:39,082 [INFO] Fetching: Boso Boso | 2025-09-16
+2026-07-01 14:46:39,696 [INFO]   OK 11103103 | 2025-09-16 | 144 records fetched
+2026-07-01 14:46:41,207 [INFO] Fetching: Marikina (Youth Camp) | 2025-09-17
+2026-07-01 14:46:41,686 [INFO]   OK 11103107 | 2025-09-17 | 144 records fetched
+2026-07-01 14:46:43,198 [INFO] Fetching: Boso Boso | 2025-09-17
+2026-07-01 14:46:43,830 [INFO]   OK 11103103 | 2025-09-17 | 144 records fetched
+2026-07-01 14:46:45,347 [INFO] Fetching: Marikina (Youth Camp) | 2025-09-18
+2026-07-01 14:46:45,744 [INFO]   OK 11103107 | 2025-09-18 | 144 records fetched
+2026-07-01 14:46:47,261 [INFO] Fetching: Boso Boso | 2025-09-18
+2026-07-01 14:46:47,674 [INFO]   OK 11103103 | 2025-09-18 | 144 records fetched
+2026-07-01 14:46:47,867 [INFO]   [Checkpoint] 160/306 done | 23040 records saved
+2026-07-01 14:46:49,380 [INFO] Fetching: Marikina (Youth Camp) | 2025-09-19
+2026-07-01 14:46:49,802 [INFO]   OK 11103107 | 2025-09-19 | 144 records fetched
+2026-07-01 14:46:51,312 [INFO] Fetching: Boso Boso | 2025-09-19
+2026-07-01 14:46:51,768 [INFO]   OK 11103103 | 2025-09-19 | 144 records fetched
+2026-07-01 14:46:53,272 [INFO] Fetching: Marikina (Youth Camp) | 2025-09-20
+2026-07-01 14:46:53,669 [INFO]   OK 11103107 | 2025-09-20 | 144 records fetched
+2026-07-01 14:46:55,178 [INFO] Fetching: Boso Boso | 2025-09-20
+2026-07-01 14:46:55,586 [INFO]   OK 11103103 | 2025-09-20 | 144 records fetched
+2026-07-01 14:46:57,555 [INFO] Fetching: Marikina (Youth Camp) | 2025-09-21
+2026-07-01 14:46:58,027 [INFO]   OK 11103107 | 2025-09-21 | 144 records fetched
+2026-07-01 14:46:59,544 [INFO] Fetching: Boso Boso | 2025-09-21
+2026-07-01 14:46:59,934 [INFO]   OK 11103103 | 2025-09-21 | 144 records fetched
+2026-07-01 14:47:01,449 [INFO] Fetching: Marikina (Youth Camp) | 2025-09-22
+2026-07-01 14:47:01,864 [INFO]   OK 11103107 | 2025-09-22 | 144 records fetched
+2026-07-01 14:47:03,375 [INFO] Fetching: Boso Boso | 2025-09-22
+2026-07-01 14:47:03,857 [INFO]   OK 11103103 | 2025-09-22 | 144 records fetched
+2026-07-01 14:47:05,366 [INFO] Fetching: Marikina (Youth Camp) | 2025-09-23
+2026-07-01 14:47:05,804 [INFO]   OK 11103107 | 2025-09-23 | 144 records fetched
+2026-07-01 14:47:07,312 [INFO] Fetching: Boso Boso | 2025-09-23
+2026-07-01 14:47:07,714 [INFO]   OK 11103103 | 2025-09-23 | 144 records fetched
+2026-07-01 14:47:09,220 [INFO] Fetching: Marikina (Youth Camp) | 2025-09-24
+2026-07-01 14:47:09,652 [INFO]   OK 11103107 | 2025-09-24 | 144 records fetched
+2026-07-01 14:47:11,157 [INFO] Fetching: Boso Boso | 2025-09-24
+2026-07-01 14:47:11,576 [INFO]   OK 11103103 | 2025-09-24 | 144 records fetched
+2026-07-01 14:47:13,090 [INFO] Fetching: Marikina (Youth Camp) | 2025-09-25
+2026-07-01 14:47:13,508 [INFO]   OK 11103107 | 2025-09-25 | 144 records fetched
+2026-07-01 14:47:15,011 [INFO] Fetching: Boso Boso | 2025-09-25
+2026-07-01 14:47:15,405 [INFO]   OK 11103103 | 2025-09-25 | 144 records fetched
+2026-07-01 14:47:16,912 [INFO] Fetching: Marikina (Youth Camp) | 2025-09-26
+2026-07-01 14:47:17,374 [INFO]   OK 11103107 | 2025-09-26 | 144 records fetched
+2026-07-01 14:47:18,882 [INFO] Fetching: Boso Boso | 2025-09-26
+2026-07-01 14:47:19,268 [INFO]   OK 11103103 | 2025-09-26 | 144 records fetched
+2026-07-01 14:47:20,784 [INFO] Fetching: Marikina (Youth Camp) | 2025-09-27
+2026-07-01 14:47:21,266 [INFO]   OK 11103107 | 2025-09-27 | 144 records fetched
+2026-07-01 14:47:22,773 [INFO] Fetching: Boso Boso | 2025-09-27
+2026-07-01 14:47:23,393 [INFO]   OK 11103103 | 2025-09-27 | 144 records fetched
+2026-07-01 14:47:24,905 [INFO] Fetching: Marikina (Youth Camp) | 2025-09-28
+2026-07-01 14:47:25,364 [INFO]   OK 11103107 | 2025-09-28 | 144 records fetched
+2026-07-01 14:47:26,872 [INFO] Fetching: Boso Boso | 2025-09-28
+2026-07-01 14:47:27,292 [INFO]   OK 11103103 | 2025-09-28 | 144 records fetched
+2026-07-01 14:47:27,508 [INFO]   [Checkpoint] 180/306 done | 25920 records saved
+2026-07-01 14:47:29,018 [INFO] Fetching: Marikina (Youth Camp) | 2025-09-29
+2026-07-01 14:47:29,425 [INFO]   OK 11103107 | 2025-09-29 | 144 records fetched
+2026-07-01 14:47:30,937 [INFO] Fetching: Boso Boso | 2025-09-29
+2026-07-01 14:47:31,610 [INFO]   OK 11103103 | 2025-09-29 | 144 records fetched
+2026-07-01 14:47:33,118 [INFO] Fetching: Marikina (Youth Camp) | 2025-09-30
+2026-07-01 14:47:33,507 [INFO]   OK 11103107 | 2025-09-30 | 144 records fetched
+2026-07-01 14:47:35,014 [INFO] Fetching: Boso Boso | 2025-09-30
+2026-07-01 14:47:35,430 [INFO]   OK 11103103 | 2025-09-30 | 144 records fetched
+2026-07-01 14:47:36,943 [INFO] Fetching: Marikina (Youth Camp) | 2025-10-01
+2026-07-01 14:47:37,363 [INFO]   OK 11103107 | 2025-10-01 | 144 records fetched
+2026-07-01 14:47:38,874 [INFO] Fetching: Boso Boso | 2025-10-01
+2026-07-01 14:47:39,294 [INFO]   OK 11103103 | 2025-10-01 | 144 records fetched
+2026-07-01 14:47:40,805 [INFO] Fetching: Marikina (Youth Camp) | 2025-10-02
+2026-07-01 14:47:41,197 [INFO]   OK 11103107 | 2025-10-02 | 144 records fetched
+2026-07-01 14:47:42,703 [INFO] Fetching: Boso Boso | 2025-10-02
+2026-07-01 14:47:43,101 [INFO]   OK 11103103 | 2025-10-02 | 144 records fetched
+2026-07-01 14:47:44,615 [INFO] Fetching: Marikina (Youth Camp) | 2025-10-03
+2026-07-01 14:47:45,024 [INFO]   OK 11103107 | 2025-10-03 | 144 records fetched
+2026-07-01 14:47:46,533 [INFO] Fetching: Boso Boso | 2025-10-03
+2026-07-01 14:47:46,947 [INFO]   OK 11103103 | 2025-10-03 | 144 records fetched
+2026-07-01 14:47:48,456 [INFO] Fetching: Marikina (Youth Camp) | 2025-10-04
+2026-07-01 14:47:48,874 [INFO]   OK 11103107 | 2025-10-04 | 144 records fetched
+2026-07-01 14:47:50,382 [INFO] Fetching: Boso Boso | 2025-10-04
+2026-07-01 14:47:50,798 [INFO]   OK 11103103 | 2025-10-04 | 144 records fetched
+2026-07-01 14:47:52,309 [INFO] Fetching: Marikina (Youth Camp) | 2025-10-05
+2026-07-01 14:47:52,700 [INFO]   OK 11103107 | 2025-10-05 | 144 records fetched
+2026-07-01 14:47:54,205 [INFO] Fetching: Boso Boso | 2025-10-05
+2026-07-01 14:47:54,619 [INFO]   OK 11103103 | 2025-10-05 | 144 records fetched
+2026-07-01 14:47:56,133 [INFO] Fetching: Marikina (Youth Camp) | 2025-10-06
+2026-07-01 14:47:56,535 [INFO]   OK 11103107 | 2025-10-06 | 144 records fetched
+2026-07-01 14:47:58,050 [INFO] Fetching: Boso Boso | 2025-10-06
+2026-07-01 14:47:58,464 [INFO]   OK 11103103 | 2025-10-06 | 144 records fetched
+2026-07-01 14:47:59,972 [INFO] Fetching: Marikina (Youth Camp) | 2025-10-07
+2026-07-01 14:48:00,375 [INFO]   OK 11103107 | 2025-10-07 | 144 records fetched
+2026-07-01 14:48:01,889 [INFO] Fetching: Boso Boso | 2025-10-07
+2026-07-01 14:48:02,302 [INFO]   OK 11103103 | 2025-10-07 | 144 records fetched
+2026-07-01 14:48:03,819 [INFO] Fetching: Marikina (Youth Camp) | 2025-10-08
+2026-07-01 14:48:04,201 [INFO]   OK 11103107 | 2025-10-08 | 144 records fetched
+2026-07-01 14:48:05,721 [INFO] Fetching: Boso Boso | 2025-10-08
+2026-07-01 14:48:06,127 [INFO]   OK 11103103 | 2025-10-08 | 144 records fetched
+2026-07-01 14:48:06,275 [INFO]   [Checkpoint] 200/306 done | 28800 records saved
+2026-07-01 14:48:07,777 [INFO] Fetching: Marikina (Youth Camp) | 2025-10-09
+2026-07-01 14:48:08,419 [INFO]   OK 11103107 | 2025-10-09 | 144 records fetched
+2026-07-01 14:48:09,932 [INFO] Fetching: Boso Boso | 2025-10-09
+2026-07-01 14:48:10,342 [INFO]   OK 11103103 | 2025-10-09 | 144 records fetched
+2026-07-01 14:48:11,856 [INFO] Fetching: Marikina (Youth Camp) | 2025-10-10
+2026-07-01 14:48:12,257 [INFO]   OK 11103107 | 2025-10-10 | 144 records fetched
+2026-07-01 14:48:13,766 [INFO] Fetching: Boso Boso | 2025-10-10
+2026-07-01 14:48:14,192 [INFO]   OK 11103103 | 2025-10-10 | 144 records fetched
+2026-07-01 14:48:15,704 [INFO] Fetching: Marikina (Youth Camp) | 2025-10-11
+2026-07-01 14:48:16,129 [INFO]   OK 11103107 | 2025-10-11 | 144 records fetched
+2026-07-01 14:48:17,639 [INFO] Fetching: Boso Boso | 2025-10-11
+2026-07-01 14:48:18,103 [INFO]   OK 11103103 | 2025-10-11 | 144 records fetched
+2026-07-01 14:48:19,615 [INFO] Fetching: Marikina (Youth Camp) | 2025-10-12
+2026-07-01 14:48:20,016 [INFO]   OK 11103107 | 2025-10-12 | 144 records fetched
+2026-07-01 14:48:21,524 [INFO] Fetching: Boso Boso | 2025-10-12
+2026-07-01 14:48:21,991 [INFO]   OK 11103103 | 2025-10-12 | 144 records fetched
+2026-07-01 14:48:23,508 [INFO] Fetching: Marikina (Youth Camp) | 2025-10-13
+2026-07-01 14:48:23,916 [INFO]   OK 11103107 | 2025-10-13 | 144 records fetched
+2026-07-01 14:48:25,424 [INFO] Fetching: Boso Boso | 2025-10-13
+2026-07-01 14:48:25,813 [INFO]   OK 11103103 | 2025-10-13 | 144 records fetched
+2026-07-01 14:48:27,324 [INFO] Fetching: Marikina (Youth Camp) | 2025-10-14
+2026-07-01 14:48:27,833 [INFO]   OK 11103107 | 2025-10-14 | 144 records fetched
+2026-07-01 14:48:29,338 [INFO] Fetching: Boso Boso | 2025-10-14
+2026-07-01 14:48:29,744 [INFO]   OK 11103103 | 2025-10-14 | 144 records fetched
+2026-07-01 14:48:31,259 [INFO] Fetching: Marikina (Youth Camp) | 2025-10-15
+2026-07-01 14:48:31,658 [INFO]   OK 11103107 | 2025-10-15 | 144 records fetched
+2026-07-01 14:48:33,170 [INFO] Fetching: Boso Boso | 2025-10-15
+2026-07-01 14:48:33,664 [INFO]   OK 11103103 | 2025-10-15 | 144 records fetched
+2026-07-01 14:48:35,172 [INFO] Fetching: Marikina (Youth Camp) | 2025-10-16
+2026-07-01 14:48:35,569 [INFO]   OK 11103107 | 2025-10-16 | 144 records fetched
+2026-07-01 14:48:37,088 [INFO] Fetching: Boso Boso | 2025-10-16
+2026-07-01 14:48:37,490 [INFO]   OK 11103103 | 2025-10-16 | 144 records fetched
+2026-07-01 14:48:39,003 [INFO] Fetching: Marikina (Youth Camp) | 2025-10-17
+2026-07-01 14:48:39,401 [INFO]   OK 11103107 | 2025-10-17 | 144 records fetched
+2026-07-01 14:48:40,908 [INFO] Fetching: Boso Boso | 2025-10-17
+2026-07-01 14:48:41,297 [INFO]   OK 11103103 | 2025-10-17 | 144 records fetched
+2026-07-01 14:48:42,805 [INFO] Fetching: Marikina (Youth Camp) | 2025-10-18
+2026-07-01 14:48:43,210 [INFO]   OK 11103107 | 2025-10-18 | 144 records fetched
+2026-07-01 14:48:44,723 [INFO] Fetching: Boso Boso | 2025-10-18
+2026-07-01 14:48:45,137 [INFO]   OK 11103103 | 2025-10-18 | 144 records fetched
+2026-07-01 14:48:45,392 [INFO]   [Checkpoint] 220/306 done | 31680 records saved
+2026-07-01 14:48:46,904 [INFO] Fetching: Marikina (Youth Camp) | 2025-10-19
+2026-07-01 14:48:47,309 [INFO]   OK 11103107 | 2025-10-19 | 144 records fetched
+2026-07-01 14:48:48,821 [INFO] Fetching: Boso Boso | 2025-10-19
+2026-07-01 14:48:49,228 [INFO]   OK 11103103 | 2025-10-19 | 144 records fetched
+2026-07-01 14:48:50,738 [INFO] Fetching: Marikina (Youth Camp) | 2025-10-20
+2026-07-01 14:48:51,115 [INFO]   OK 11103107 | 2025-10-20 | 144 records fetched
+2026-07-01 14:48:52,627 [INFO] Fetching: Boso Boso | 2025-10-20
+2026-07-01 14:48:53,032 [INFO]   OK 11103103 | 2025-10-20 | 144 records fetched
+2026-07-01 14:48:54,537 [INFO] Fetching: Marikina (Youth Camp) | 2025-10-21
+2026-07-01 14:48:54,929 [INFO]   OK 11103107 | 2025-10-21 | 144 records fetched
+2026-07-01 14:48:56,436 [INFO] Fetching: Boso Boso | 2025-10-21
+2026-07-01 14:48:56,913 [INFO]   OK 11103103 | 2025-10-21 | 144 records fetched
+2026-07-01 14:48:58,418 [INFO] Fetching: Marikina (Youth Camp) | 2025-10-22
+2026-07-01 14:48:58,820 [INFO]   OK 11103107 | 2025-10-22 | 144 records fetched
+2026-07-01 14:49:00,342 [INFO] Fetching: Boso Boso | 2025-10-22
+2026-07-01 14:49:00,763 [INFO]   OK 11103103 | 2025-10-22 | 144 records fetched
+2026-07-01 14:49:02,275 [INFO] Fetching: Marikina (Youth Camp) | 2025-10-23
+2026-07-01 14:49:02,677 [INFO]   OK 11103107 | 2025-10-23 | 144 records fetched
+2026-07-01 14:49:04,190 [INFO] Fetching: Boso Boso | 2025-10-23
+2026-07-01 14:49:04,586 [INFO]   OK 11103103 | 2025-10-23 | 144 records fetched
+2026-07-01 14:49:06,093 [INFO] Fetching: Marikina (Youth Camp) | 2025-10-24
+2026-07-01 14:49:06,503 [INFO]   OK 11103107 | 2025-10-24 | 144 records fetched
+2026-07-01 14:49:08,008 [INFO] Fetching: Boso Boso | 2025-10-24
+2026-07-01 14:49:08,480 [INFO]   OK 11103103 | 2025-10-24 | 144 records fetched
+2026-07-01 14:49:09,993 [INFO] Fetching: Marikina (Youth Camp) | 2025-10-25
+2026-07-01 14:49:10,386 [INFO]   OK 11103107 | 2025-10-25 | 144 records fetched
+2026-07-01 14:49:11,895 [INFO] Fetching: Boso Boso | 2025-10-25
+2026-07-01 14:49:12,307 [INFO]   OK 11103103 | 2025-10-25 | 144 records fetched
+2026-07-01 14:49:13,819 [INFO] Fetching: Marikina (Youth Camp) | 2025-10-26
+2026-07-01 14:49:14,233 [INFO]   OK 11103107 | 2025-10-26 | 144 records fetched
+2026-07-01 14:49:15,739 [INFO] Fetching: Boso Boso | 2025-10-26
+2026-07-01 14:49:16,178 [INFO]   OK 11103103 | 2025-10-26 | 144 records fetched
+2026-07-01 14:49:17,686 [INFO] Fetching: Marikina (Youth Camp) | 2025-10-27
+2026-07-01 14:49:18,104 [INFO]   OK 11103107 | 2025-10-27 | 144 records fetched
+2026-07-01 14:49:19,614 [INFO] Fetching: Boso Boso | 2025-10-27
+2026-07-01 14:49:20,028 [INFO]   OK 11103103 | 2025-10-27 | 144 records fetched
+2026-07-01 14:49:21,540 [INFO] Fetching: Marikina (Youth Camp) | 2025-10-28
+2026-07-01 14:49:21,946 [INFO]   OK 11103107 | 2025-10-28 | 144 records fetched
+2026-07-01 14:49:23,452 [INFO] Fetching: Boso Boso | 2025-10-28
+2026-07-01 14:49:23,949 [INFO]   OK 11103103 | 2025-10-28 | 144 records fetched
+2026-07-01 14:49:24,240 [INFO]   [Checkpoint] 240/306 done | 34560 records saved
+2026-07-01 14:49:25,742 [INFO] Fetching: Marikina (Youth Camp) | 2025-10-29
+2026-07-01 14:49:26,169 [INFO]   OK 11103107 | 2025-10-29 | 144 records fetched
+2026-07-01 14:49:27,673 [INFO] Fetching: Boso Boso | 2025-10-29
+2026-07-01 14:49:28,062 [INFO]   OK 11103103 | 2025-10-29 | 144 records fetched
+2026-07-01 14:49:29,570 [INFO] Fetching: Marikina (Youth Camp) | 2025-10-30
+2026-07-01 14:49:29,978 [INFO]   OK 11103107 | 2025-10-30 | 144 records fetched
+2026-07-01 14:49:31,491 [INFO] Fetching: Boso Boso | 2025-10-30
+2026-07-01 14:49:31,921 [INFO]   OK 11103103 | 2025-10-30 | 144 records fetched
+2026-07-01 14:49:33,441 [INFO] Fetching: Marikina (Youth Camp) | 2025-10-31
+2026-07-01 14:49:33,833 [INFO]   OK 11103107 | 2025-10-31 | 144 records fetched
+2026-07-01 14:49:35,340 [INFO] Fetching: Boso Boso | 2025-10-31
+2026-07-01 14:49:35,740 [INFO]   OK 11103103 | 2025-10-31 | 144 records fetched
+2026-07-01 14:49:37,261 [INFO] Fetching: Marikina (Youth Camp) | 2025-11-01
+2026-07-01 14:49:37,682 [INFO]   OK 11103107 | 2025-11-01 | 144 records fetched
+2026-07-01 14:49:39,185 [INFO] Fetching: Boso Boso | 2025-11-01
+2026-07-01 14:49:39,583 [INFO]   OK 11103103 | 2025-11-01 | 144 records fetched
+2026-07-01 14:49:41,101 [INFO] Fetching: Marikina (Youth Camp) | 2025-11-02
+2026-07-01 14:49:41,523 [INFO]   OK 11103107 | 2025-11-02 | 144 records fetched
+2026-07-01 14:49:43,032 [INFO] Fetching: Boso Boso | 2025-11-02
+2026-07-01 14:49:43,437 [INFO]   OK 11103103 | 2025-11-02 | 144 records fetched
+2026-07-01 14:49:44,942 [INFO] Fetching: Marikina (Youth Camp) | 2025-11-03
+2026-07-01 14:49:45,336 [INFO]   OK 11103107 | 2025-11-03 | 144 records fetched
+2026-07-01 14:49:46,846 [INFO] Fetching: Boso Boso | 2025-11-03
+2026-07-01 14:49:47,278 [INFO]   OK 11103103 | 2025-11-03 | 144 records fetched
+2026-07-01 14:49:48,789 [INFO] Fetching: Marikina (Youth Camp) | 2025-11-04
+2026-07-01 14:49:49,192 [INFO]   OK 11103107 | 2025-11-04 | 144 records fetched
+2026-07-01 14:49:50,706 [INFO] Fetching: Boso Boso | 2025-11-04
+2026-07-01 14:49:51,125 [INFO]   OK 11103103 | 2025-11-04 | 144 records fetched
+2026-07-01 14:49:52,637 [INFO] Fetching: Marikina (Youth Camp) | 2025-11-05
+2026-07-01 14:49:53,049 [INFO]   OK 11103107 | 2025-11-05 | 144 records fetched
+2026-07-01 14:49:54,557 [INFO] Fetching: Boso Boso | 2025-11-05
+2026-07-01 14:49:54,927 [INFO]   OK 11103103 | 2025-11-05 | 144 records fetched
+2026-07-01 14:49:56,445 [INFO] Fetching: Marikina (Youth Camp) | 2025-11-06
+2026-07-01 14:49:56,839 [INFO]   OK 11103107 | 2025-11-06 | 144 records fetched
+2026-07-01 14:49:58,357 [INFO] Fetching: Boso Boso | 2025-11-06
+2026-07-01 14:49:58,770 [INFO]   OK 11103103 | 2025-11-06 | 144 records fetched
+2026-07-01 14:50:00,279 [INFO] Fetching: Marikina (Youth Camp) | 2025-11-07
+2026-07-01 14:50:00,685 [INFO]   OK 11103107 | 2025-11-07 | 144 records fetched
+2026-07-01 14:50:02,191 [INFO] Fetching: Boso Boso | 2025-11-07
+2026-07-01 14:50:02,610 [INFO]   OK 11103103 | 2025-11-07 | 144 records fetched
+2026-07-01 14:50:02,914 [INFO]   [Checkpoint] 260/306 done | 37440 records saved
+2026-07-01 14:50:04,424 [INFO] Fetching: Marikina (Youth Camp) | 2025-11-08
+2026-07-01 14:50:04,884 [INFO]   OK 11103107 | 2025-11-08 | 144 records fetched
+2026-07-01 14:50:06,391 [INFO] Fetching: Boso Boso | 2025-11-08
+2026-07-01 14:50:06,798 [INFO]   OK 11103103 | 2025-11-08 | 144 records fetched
+2026-07-01 14:50:08,315 [INFO] Fetching: Marikina (Youth Camp) | 2025-11-09
+2026-07-01 14:50:08,728 [INFO]   OK 11103107 | 2025-11-09 | 144 records fetched
+2026-07-01 14:50:10,241 [INFO] Fetching: Boso Boso | 2025-11-09
+2026-07-01 14:50:10,623 [INFO]   OK 11103103 | 2025-11-09 | 144 records fetched
+2026-07-01 14:50:12,131 [INFO] Fetching: Marikina (Youth Camp) | 2025-11-10
+2026-07-01 14:50:12,537 [INFO]   OK 11103107 | 2025-11-10 | 144 records fetched
+2026-07-01 14:50:14,048 [INFO] Fetching: Boso Boso | 2025-11-10
+2026-07-01 14:50:14,443 [INFO]   OK 11103103 | 2025-11-10 | 144 records fetched
+2026-07-01 14:50:15,964 [INFO] Fetching: Marikina (Youth Camp) | 2025-11-11
+2026-07-01 14:50:16,363 [INFO]   OK 11103107 | 2025-11-11 | 144 records fetched
+2026-07-01 14:50:17,869 [INFO] Fetching: Boso Boso | 2025-11-11
+2026-07-01 14:50:18,314 [INFO]   OK 11103103 | 2025-11-11 | 144 records fetched
+2026-07-01 14:50:19,829 [INFO] Fetching: Marikina (Youth Camp) | 2025-11-12
+2026-07-01 14:50:20,205 [INFO]   OK 11103107 | 2025-11-12 | 144 records fetched
+2026-07-01 14:50:21,721 [INFO] Fetching: Boso Boso | 2025-11-12
+2026-07-01 14:50:22,136 [INFO]   OK 11103103 | 2025-11-12 | 144 records fetched
+2026-07-01 14:50:23,651 [INFO] Fetching: Marikina (Youth Camp) | 2025-11-13
+2026-07-01 14:50:24,510 [INFO]   OK 11103107 | 2025-11-13 | 144 records fetched
+2026-07-01 14:50:26,030 [INFO] Fetching: Boso Boso | 2025-11-13
+2026-07-01 14:50:26,423 [INFO]   OK 11103103 | 2025-11-13 | 144 records fetched
+2026-07-01 14:50:27,935 [INFO] Fetching: Marikina (Youth Camp) | 2025-11-14
+2026-07-01 14:50:28,362 [INFO]   OK 11103107 | 2025-11-14 | 144 records fetched
+2026-07-01 14:50:29,881 [INFO] Fetching: Boso Boso | 2025-11-14
+2026-07-01 14:50:30,270 [INFO]   OK 11103103 | 2025-11-14 | 144 records fetched
+2026-07-01 14:50:31,776 [INFO] Fetching: Marikina (Youth Camp) | 2025-11-15
+2026-07-01 14:50:32,191 [INFO]   OK 11103107 | 2025-11-15 | 144 records fetched
+2026-07-01 14:50:33,700 [INFO] Fetching: Boso Boso | 2025-11-15
+2026-07-01 14:50:34,176 [INFO]   OK 11103103 | 2025-11-15 | 144 records fetched
+2026-07-01 14:50:35,676 [INFO] Fetching: Marikina (Youth Camp) | 2025-11-16
+2026-07-01 14:50:36,073 [INFO]   OK 11103107 | 2025-11-16 | 144 records fetched
+2026-07-01 14:50:37,589 [INFO] Fetching: Boso Boso | 2025-11-16
+2026-07-01 14:50:38,083 [INFO]   OK 11103103 | 2025-11-16 | 144 records fetched
+2026-07-01 14:50:39,589 [INFO] Fetching: Marikina (Youth Camp) | 2025-11-17
+2026-07-01 14:50:39,984 [INFO]   OK 11103107 | 2025-11-17 | 144 records fetched
+2026-07-01 14:50:41,489 [INFO] Fetching: Boso Boso | 2025-11-17
+2026-07-01 14:50:41,867 [INFO]   OK 11103103 | 2025-11-17 | 144 records fetched
+2026-07-01 14:50:42,186 [INFO]   [Checkpoint] 280/306 done | 40320 records saved
+2026-07-01 14:50:43,702 [INFO] Fetching: Marikina (Youth Camp) | 2025-11-18
+2026-07-01 14:50:44,129 [INFO]   OK 11103107 | 2025-11-18 | 144 records fetched
+2026-07-01 14:50:45,635 [INFO] Fetching: Boso Boso | 2025-11-18
+2026-07-01 14:50:46,034 [INFO]   OK 11103103 | 2025-11-18 | 144 records fetched
+2026-07-01 14:50:47,544 [INFO] Fetching: Marikina (Youth Camp) | 2025-11-19
+2026-07-01 14:50:47,926 [INFO]   OK 11103107 | 2025-11-19 | 144 records fetched
+2026-07-01 14:50:49,432 [INFO] Fetching: Boso Boso | 2025-11-19
+2026-07-01 14:50:49,825 [INFO]   OK 11103103 | 2025-11-19 | 144 records fetched
+2026-07-01 14:50:51,335 [INFO] Fetching: Marikina (Youth Camp) | 2025-11-20
+2026-07-01 14:50:51,738 [INFO]   OK 11103107 | 2025-11-20 | 144 records fetched
+2026-07-01 14:50:53,244 [INFO] Fetching: Boso Boso | 2025-11-20
+2026-07-01 14:50:53,638 [INFO]   OK 11103103 | 2025-11-20 | 144 records fetched
+2026-07-01 14:50:55,142 [INFO] Fetching: Marikina (Youth Camp) | 2025-11-21
+2026-07-01 14:50:55,530 [INFO]   OK 11103107 | 2025-11-21 | 144 records fetched
+2026-07-01 14:50:57,041 [INFO] Fetching: Boso Boso | 2025-11-21
+2026-07-01 14:50:57,443 [INFO]   OK 11103103 | 2025-11-21 | 144 records fetched
+2026-07-01 14:50:58,946 [INFO] Fetching: Marikina (Youth Camp) | 2025-11-22
+2026-07-01 14:50:59,485 [INFO]   OK 11103107 | 2025-11-22 | 144 records fetched
+2026-07-01 14:51:00,997 [INFO] Fetching: Boso Boso | 2025-11-22
+2026-07-01 14:51:01,387 [INFO]   OK 11103103 | 2025-11-22 | 144 records fetched
+2026-07-01 14:51:02,895 [INFO] Fetching: Marikina (Youth Camp) | 2025-11-23
+2026-07-01 14:51:03,300 [INFO]   OK 11103107 | 2025-11-23 | 144 records fetched
+2026-07-01 14:51:04,808 [INFO] Fetching: Boso Boso | 2025-11-23
+2026-07-01 14:51:05,321 [INFO]   OK 11103103 | 2025-11-23 | 144 records fetched
+2026-07-01 14:51:06,826 [INFO] Fetching: Marikina (Youth Camp) | 2025-11-24
+2026-07-01 14:51:07,221 [INFO]   OK 11103107 | 2025-11-24 | 144 records fetched
+2026-07-01 14:51:08,728 [INFO] Fetching: Boso Boso | 2025-11-24
+2026-07-01 14:51:09,220 [INFO]   OK 11103103 | 2025-11-24 | 144 records fetched
+2026-07-01 14:51:10,732 [INFO] Fetching: Marikina (Youth Camp) | 2025-11-25
+2026-07-01 14:51:11,106 [INFO]   OK 11103107 | 2025-11-25 | 144 records fetched
+2026-07-01 14:51:12,620 [INFO] Fetching: Boso Boso | 2025-11-25
+2026-07-01 14:51:13,024 [INFO]   OK 11103103 | 2025-11-25 | 144 records fetched
+2026-07-01 14:51:14,536 [INFO] Fetching: Marikina (Youth Camp) | 2025-11-26
+2026-07-01 14:51:14,918 [INFO]   OK 11103107 | 2025-11-26 | 144 records fetched
+2026-07-01 14:51:16,432 [INFO] Fetching: Boso Boso | 2025-11-26
+2026-07-01 14:51:16,827 [INFO]   OK 11103103 | 2025-11-26 | 144 records fetched
+2026-07-01 14:51:18,339 [INFO] Fetching: Marikina (Youth Camp) | 2025-11-27
+2026-07-01 14:51:18,751 [INFO]   OK 11103107 | 2025-11-27 | 144 records fetched
+2026-07-01 14:51:20,257 [INFO] Fetching: Boso Boso | 2025-11-27
+2026-07-01 14:51:20,776 [INFO]   OK 11103103 | 2025-11-27 | 144 records fetched
+2026-07-01 14:51:21,114 [INFO]   [Checkpoint] 300/306 done | 43200 records saved
+2026-07-01 14:51:22,619 [INFO] Fetching: Marikina (Youth Camp) | 2025-11-28
+2026-07-01 14:51:23,012 [INFO]   OK 11103107 | 2025-11-28 | 144 records fetched
+2026-07-01 14:51:24,514 [INFO] Fetching: Boso Boso | 2025-11-28
+2026-07-01 14:51:24,977 [INFO]   OK 11103103 | 2025-11-28 | 144 records fetched
+2026-07-01 14:51:26,485 [INFO] Fetching: Marikina (Youth Camp) | 2025-11-29
+2026-07-01 14:51:26,878 [INFO]   OK 11103107 | 2025-11-29 | 144 records fetched
+2026-07-01 14:51:28,383 [INFO] Fetching: Boso Boso | 2025-11-29
+2026-07-01 14:51:28,777 [INFO]   OK 11103103 | 2025-11-29 | 144 records fetched
+2026-07-01 14:51:30,280 [INFO] Fetching: Marikina (Youth Camp) | 2025-11-30
+2026-07-01 14:51:30,660 [INFO]   OK 11103107 | 2025-11-30 | 144 records fetched
+2026-07-01 14:51:32,172 [INFO] Fetching: Boso Boso | 2025-11-30
+2026-07-01 14:51:32,760 [INFO]   OK 11103103 | 2025-11-30 | 144 records fetched
+2026-07-01 14:51:34,612 [INFO] ============================================================
+2026-07-01 14:51:34,612 [INFO] RAINFALL SCRAPE COMPLETE
+2026-07-01 14:51:34,612 [INFO] Total records : 44064
+2026-07-01 14:51:34,612 [INFO] Failed days   : 0
+2026-07-01 14:51:34,627 [INFO] ============================================================

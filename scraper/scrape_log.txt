@@ -1,0 +1,944 @@
+2026-07-01 14:12:00,816 [INFO] ============================================================
+2026-07-01 14:12:00,822 [INFO] Scrape window : 2025-07-01 → 2025-11-30
+2026-07-01 14:12:00,823 [INFO] Stations      : ['Sto Nino', 'Tumana Bridge', 'Rodriguez']
+2026-07-01 14:12:00,823 [INFO] Total requests: ~459
+2026-07-01 14:12:00,823 [INFO] Output file   : ../data/raw/water_level_raw.csv
+2026-07-01 14:12:00,823 [INFO] ============================================================
+2026-07-01 14:12:00,823 [INFO] Fetching: Sto Nino | 2025-07-01
+2026-07-01 14:12:01,357 [INFO]   OK 11104201 | 2025-07-01 | 144 records fetched
+2026-07-01 14:12:02,869 [INFO] Fetching: Tumana Bridge | 2025-07-01
+2026-07-01 14:12:03,463 [INFO]   OK 11103203 | 2025-07-01 | 144 records fetched
+2026-07-01 14:12:04,969 [INFO] Fetching: Rodriguez | 2025-07-01
+2026-07-01 14:12:05,515 [INFO]   OK 11102201 | 2025-07-01 | 144 records fetched
+2026-07-01 14:12:07,027 [INFO] Fetching: Sto Nino | 2025-07-02
+2026-07-01 14:12:07,662 [INFO]   OK 11104201 | 2025-07-02 | 144 records fetched
+2026-07-01 14:12:09,169 [INFO] Fetching: Tumana Bridge | 2025-07-02
+2026-07-01 14:12:09,809 [INFO]   OK 11103203 | 2025-07-02 | 144 records fetched
+2026-07-01 14:12:11,322 [INFO] Fetching: Rodriguez | 2025-07-02
+2026-07-01 14:12:12,167 [INFO]   OK 11102201 | 2025-07-02 | 144 records fetched
+2026-07-01 14:12:13,684 [INFO] Fetching: Sto Nino | 2025-07-03
+2026-07-01 14:12:14,217 [INFO]   OK 11104201 | 2025-07-03 | 144 records fetched
+2026-07-01 14:12:15,733 [INFO] Fetching: Tumana Bridge | 2025-07-03
+2026-07-01 14:12:16,367 [INFO]   OK 11103203 | 2025-07-03 | 144 records fetched
+2026-07-01 14:12:17,872 [INFO] Fetching: Rodriguez | 2025-07-03
+2026-07-01 14:12:18,385 [INFO]   OK 11102201 | 2025-07-03 | 144 records fetched
+2026-07-01 14:12:19,891 [INFO] Fetching: Sto Nino | 2025-07-04
+2026-07-01 14:12:20,563 [INFO]   OK 11104201 | 2025-07-04 | 144 records fetched
+2026-07-01 14:12:22,076 [INFO] Fetching: Tumana Bridge | 2025-07-04
+2026-07-01 14:12:22,609 [INFO]   OK 11103203 | 2025-07-04 | 144 records fetched
+2026-07-01 14:12:24,125 [INFO] Fetching: Rodriguez | 2025-07-04
+2026-07-01 14:12:24,763 [INFO]   OK 11102201 | 2025-07-04 | 144 records fetched
+2026-07-01 14:12:26,272 [INFO] Fetching: Sto Nino | 2025-07-05
+2026-07-01 14:12:26,910 [INFO]   OK 11104201 | 2025-07-05 | 144 records fetched
+2026-07-01 14:12:28,421 [INFO] Fetching: Tumana Bridge | 2025-07-05
+2026-07-01 14:12:29,064 [INFO]   OK 11103203 | 2025-07-05 | 144 records fetched
+2026-07-01 14:12:30,574 [INFO] Fetching: Rodriguez | 2025-07-05
+2026-07-01 14:12:31,111 [INFO]   OK 11102201 | 2025-07-05 | 144 records fetched
+2026-07-01 14:12:32,624 [INFO] Fetching: Sto Nino | 2025-07-06
+2026-07-01 14:12:33,117 [INFO]   OK 11104201 | 2025-07-06 | 144 records fetched
+2026-07-01 14:12:34,624 [INFO] Fetching: Tumana Bridge | 2025-07-06
+2026-07-01 14:12:35,134 [INFO]   OK 11103203 | 2025-07-06 | 144 records fetched
+2026-07-01 14:12:36,640 [INFO] Fetching: Rodriguez | 2025-07-06
+2026-07-01 14:12:37,144 [INFO]   OK 11102201 | 2025-07-06 | 144 records fetched
+2026-07-01 14:12:38,657 [INFO] Fetching: Sto Nino | 2025-07-07
+2026-07-01 14:12:39,250 [INFO]   OK 11104201 | 2025-07-07 | 144 records fetched
+2026-07-01 14:12:40,763 [INFO] Fetching: Tumana Bridge | 2025-07-07
+2026-07-01 14:12:41,348 [INFO]   OK 11103203 | 2025-07-07 | 144 records fetched
+2026-07-01 14:12:42,858 [INFO] Fetching: Rodriguez | 2025-07-07
+2026-07-01 14:12:43,371 [INFO]   OK 11102201 | 2025-07-07 | 144 records fetched
+2026-07-01 14:12:44,891 [INFO] Fetching: Sto Nino | 2025-07-08
+2026-07-01 14:12:45,448 [INFO]   OK 11104201 | 2025-07-08 | 144 records fetched
+2026-07-01 14:12:46,949 [INFO] Fetching: Tumana Bridge | 2025-07-08
+2026-07-01 14:12:47,492 [INFO]   OK 11103203 | 2025-07-08 | 144 records fetched
+2026-07-01 14:12:49,001 [INFO] Fetching: Rodriguez | 2025-07-08
+2026-07-01 14:12:49,529 [INFO]   OK 11102201 | 2025-07-08 | 144 records fetched
+2026-07-01 14:12:51,047 [INFO] Fetching: Sto Nino | 2025-07-09
+2026-07-01 14:12:51,595 [INFO]   OK 11104201 | 2025-07-09 | 144 records fetched
+2026-07-01 14:12:53,104 [INFO] Fetching: Tumana Bridge | 2025-07-09
+2026-07-01 14:12:54,021 [INFO]   OK 11103203 | 2025-07-09 | 144 records fetched
+2026-07-01 14:12:55,530 [INFO] Fetching: Rodriguez | 2025-07-09
+2026-07-01 14:12:56,100 [INFO]   OK 11102201 | 2025-07-09 | 144 records fetched
+2026-07-01 14:12:57,616 [INFO] Fetching: Sto Nino | 2025-07-10
+2026-07-01 14:12:58,247 [INFO]   OK 11104201 | 2025-07-10 | 144 records fetched
+2026-07-01 14:12:59,766 [INFO] Fetching: Tumana Bridge | 2025-07-10
+2026-07-01 14:13:00,399 [INFO]   OK 11103203 | 2025-07-10 | 144 records fetched
+2026-07-01 14:13:01,902 [INFO] Fetching: Rodriguez | 2025-07-10
+2026-07-01 14:13:02,443 [INFO]   OK 11102201 | 2025-07-10 | 144 records fetched
+2026-07-01 14:13:02,547 [INFO]   [Checkpoint] 30/459 requests done | 4320 records saved
+2026-07-01 14:13:04,052 [INFO] Fetching: Sto Nino | 2025-07-11
+2026-07-01 14:13:04,597 [INFO]   OK 11104201 | 2025-07-11 | 144 records fetched
+2026-07-01 14:13:06,112 [INFO] Fetching: Tumana Bridge | 2025-07-11
+2026-07-01 14:13:06,740 [INFO]   OK 11103203 | 2025-07-11 | 144 records fetched
+2026-07-01 14:13:08,244 [INFO] Fetching: Rodriguez | 2025-07-11
+2026-07-01 14:13:08,794 [INFO]   OK 11102201 | 2025-07-11 | 144 records fetched
+2026-07-01 14:13:10,297 [INFO] Fetching: Sto Nino | 2025-07-12
+2026-07-01 14:13:10,949 [INFO]   OK 11104201 | 2025-07-12 | 144 records fetched
+2026-07-01 14:13:12,453 [INFO] Fetching: Tumana Bridge | 2025-07-12
+2026-07-01 14:13:13,028 [INFO]   OK 11103203 | 2025-07-12 | 144 records fetched
+2026-07-01 14:13:14,547 [INFO] Fetching: Rodriguez | 2025-07-12
+2026-07-01 14:13:15,172 [INFO]   OK 11102201 | 2025-07-12 | 144 records fetched
+2026-07-01 14:13:16,676 [INFO] Fetching: Sto Nino | 2025-07-13
+2026-07-01 14:13:17,292 [INFO]   OK 11104201 | 2025-07-13 | 144 records fetched
+2026-07-01 14:13:18,800 [INFO] Fetching: Tumana Bridge | 2025-07-13
+2026-07-01 14:13:19,341 [INFO]   OK 11103203 | 2025-07-13 | 144 records fetched
+2026-07-01 14:13:20,856 [INFO] Fetching: Rodriguez | 2025-07-13
+2026-07-01 14:13:21,495 [INFO]   OK 11102201 | 2025-07-13 | 144 records fetched
+2026-07-01 14:13:23,007 [INFO] Fetching: Sto Nino | 2025-07-14
+2026-07-01 14:13:23,539 [INFO]   OK 11104201 | 2025-07-14 | 144 records fetched
+2026-07-01 14:13:25,047 [INFO] Fetching: Tumana Bridge | 2025-07-14
+2026-07-01 14:13:25,725 [INFO]   OK 11103203 | 2025-07-14 | 144 records fetched
+2026-07-01 14:13:27,236 [INFO] Fetching: Rodriguez | 2025-07-14
+2026-07-01 14:13:27,735 [INFO]   OK 11102201 | 2025-07-14 | 144 records fetched
+2026-07-01 14:13:29,244 [INFO] Fetching: Sto Nino | 2025-07-15
+2026-07-01 14:13:29,765 [INFO]   OK 11104201 | 2025-07-15 | 144 records fetched
+2026-07-01 14:13:31,275 [INFO] Fetching: Tumana Bridge | 2025-07-15
+2026-07-01 14:13:31,836 [INFO]   OK 11103203 | 2025-07-15 | 144 records fetched
+2026-07-01 14:13:33,340 [INFO] Fetching: Rodriguez | 2025-07-15
+2026-07-01 14:13:33,862 [INFO]   OK 11102201 | 2025-07-15 | 144 records fetched
+2026-07-01 14:13:35,379 [INFO] Fetching: Sto Nino | 2025-07-16
+2026-07-01 14:13:35,909 [INFO]   OK 11104201 | 2025-07-16 | 144 records fetched
+2026-07-01 14:13:37,419 [INFO] Fetching: Tumana Bridge | 2025-07-16
+2026-07-01 14:13:37,914 [INFO]   OK 11103203 | 2025-07-16 | 144 records fetched
+2026-07-01 14:13:39,434 [INFO] Fetching: Rodriguez | 2025-07-16
+2026-07-01 14:13:39,942 [INFO]   OK 11102201 | 2025-07-16 | 144 records fetched
+2026-07-01 14:13:41,446 [INFO] Fetching: Sto Nino | 2025-07-17
+2026-07-01 14:13:42,073 [INFO]   OK 11104201 | 2025-07-17 | 144 records fetched
+2026-07-01 14:13:43,577 [INFO] Fetching: Tumana Bridge | 2025-07-17
+2026-07-01 14:13:44,224 [INFO]   OK 11103203 | 2025-07-17 | 144 records fetched
+2026-07-01 14:13:45,741 [INFO] Fetching: Rodriguez | 2025-07-17
+2026-07-01 14:13:46,272 [INFO]   OK 11102201 | 2025-07-17 | 144 records fetched
+2026-07-01 14:13:47,778 [INFO] Fetching: Sto Nino | 2025-07-18
+2026-07-01 14:13:48,353 [INFO]   OK 11104201 | 2025-07-18 | 144 records fetched
+2026-07-01 14:13:49,859 [INFO] Fetching: Tumana Bridge | 2025-07-18
+2026-07-01 14:13:50,470 [INFO]   OK 11103203 | 2025-07-18 | 144 records fetched
+2026-07-01 14:13:51,978 [INFO] Fetching: Rodriguez | 2025-07-18
+2026-07-01 14:13:52,619 [INFO]   OK 11102201 | 2025-07-18 | 144 records fetched
+2026-07-01 14:13:54,124 [INFO] Fetching: Sto Nino | 2025-07-19
+2026-07-01 14:13:54,773 [INFO]   OK 11104201 | 2025-07-19 | 144 records fetched
+2026-07-01 14:13:56,284 [INFO] Fetching: Tumana Bridge | 2025-07-19
+2026-07-01 14:13:56,920 [INFO]   OK 11103203 | 2025-07-19 | 144 records fetched
+2026-07-01 14:13:58,424 [INFO] Fetching: Rodriguez | 2025-07-19
+2026-07-01 14:13:59,073 [INFO]   OK 11102201 | 2025-07-19 | 144 records fetched
+2026-07-01 14:14:00,580 [INFO] Fetching: Sto Nino | 2025-07-20
+2026-07-01 14:14:01,074 [INFO]   OK 11104201 | 2025-07-20 | 144 records fetched
+2026-07-01 14:14:02,581 [INFO] Fetching: Tumana Bridge | 2025-07-20
+2026-07-01 14:14:03,115 [INFO]   OK 11103203 | 2025-07-20 | 144 records fetched
+2026-07-01 14:14:04,631 [INFO] Fetching: Rodriguez | 2025-07-20
+2026-07-01 14:14:05,150 [INFO]   OK 11102201 | 2025-07-20 | 144 records fetched
+2026-07-01 14:14:05,264 [INFO]   [Checkpoint] 60/459 requests done | 8640 records saved
+2026-07-01 14:14:06,779 [INFO] Fetching: Sto Nino | 2025-07-21
+2026-07-01 14:14:07,365 [INFO]   OK 11104201 | 2025-07-21 | 144 records fetched
+2026-07-01 14:14:08,872 [INFO] Fetching: Tumana Bridge | 2025-07-21
+2026-07-01 14:14:09,378 [INFO]   OK 11103203 | 2025-07-21 | 144 records fetched
+2026-07-01 14:14:10,888 [INFO] Fetching: Rodriguez | 2025-07-21
+2026-07-01 14:14:11,423 [INFO]   OK 11102201 | 2025-07-21 | 144 records fetched
+2026-07-01 14:14:12,945 [INFO] Fetching: Sto Nino | 2025-07-22
+2026-07-01 14:14:13,445 [INFO]   OK 11104201 | 2025-07-22 | 144 records fetched
+2026-07-01 14:14:14,950 [INFO] Fetching: Tumana Bridge | 2025-07-22
+2026-07-01 14:14:15,467 [INFO]   OK 11103203 | 2025-07-22 | 144 records fetched
+2026-07-01 14:14:16,984 [INFO] Fetching: Rodriguez | 2025-07-22
+2026-07-01 14:14:17,609 [INFO]   OK 11102201 | 2025-07-22 | 144 records fetched
+2026-07-01 14:14:19,126 [INFO] Fetching: Sto Nino | 2025-07-23
+2026-07-01 14:14:19,643 [INFO]   OK 11104201 | 2025-07-23 | 144 records fetched
+2026-07-01 14:14:21,150 [INFO] Fetching: Tumana Bridge | 2025-07-23
+2026-07-01 14:14:21,711 [INFO]   OK 11103203 | 2025-07-23 | 144 records fetched
+2026-07-01 14:14:23,211 [INFO] Fetching: Rodriguez | 2025-07-23
+2026-07-01 14:14:23,751 [INFO]   OK 11102201 | 2025-07-23 | 144 records fetched
+2026-07-01 14:14:25,254 [INFO] Fetching: Sto Nino | 2025-07-24
+2026-07-01 14:14:25,901 [INFO]   OK 11104201 | 2025-07-24 | 144 records fetched
+2026-07-01 14:14:27,415 [INFO] Fetching: Tumana Bridge | 2025-07-24
+2026-07-01 14:14:28,052 [INFO]   OK 11103203 | 2025-07-24 | 144 records fetched
+2026-07-01 14:14:29,561 [INFO] Fetching: Rodriguez | 2025-07-24
+2026-07-01 14:14:30,093 [INFO]   OK 11102201 | 2025-07-24 | 144 records fetched
+2026-07-01 14:14:31,596 [INFO] Fetching: Sto Nino | 2025-07-25
+2026-07-01 14:14:32,145 [INFO]   OK 11104201 | 2025-07-25 | 144 records fetched
+2026-07-01 14:14:33,657 [INFO] Fetching: Tumana Bridge | 2025-07-25
+2026-07-01 14:14:34,298 [INFO]   OK 11103203 | 2025-07-25 | 144 records fetched
+2026-07-01 14:14:35,811 [INFO] Fetching: Rodriguez | 2025-07-25
+2026-07-01 14:14:36,321 [INFO]   OK 11102201 | 2025-07-25 | 144 records fetched
+2026-07-01 14:14:37,822 [INFO] Fetching: Sto Nino | 2025-07-26
+2026-07-01 14:14:38,365 [INFO]   OK 11104201 | 2025-07-26 | 144 records fetched
+2026-07-01 14:14:39,867 [INFO] Fetching: Tumana Bridge | 2025-07-26
+2026-07-01 14:14:40,440 [INFO]   OK 11103203 | 2025-07-26 | 144 records fetched
+2026-07-01 14:14:41,967 [INFO] Fetching: Rodriguez | 2025-07-26
+2026-07-01 14:14:42,591 [INFO]   OK 11102201 | 2025-07-26 | 144 records fetched
+2026-07-01 14:14:44,095 [INFO] Fetching: Sto Nino | 2025-07-27
+2026-07-01 14:14:44,638 [INFO]   OK 11104201 | 2025-07-27 | 144 records fetched
+2026-07-01 14:14:46,144 [INFO] Fetching: Tumana Bridge | 2025-07-27
+2026-07-01 14:14:46,684 [INFO]   OK 11103203 | 2025-07-27 | 144 records fetched
+2026-07-01 14:14:48,197 [INFO] Fetching: Rodriguez | 2025-07-27
+2026-07-01 14:14:48,720 [INFO]   OK 11102201 | 2025-07-27 | 144 records fetched
+2026-07-01 14:14:50,224 [INFO] Fetching: Sto Nino | 2025-07-28
+2026-07-01 14:14:50,785 [INFO]   OK 11104201 | 2025-07-28 | 144 records fetched
+2026-07-01 14:14:52,292 [INFO] Fetching: Tumana Bridge | 2025-07-28
+2026-07-01 14:14:52,831 [INFO]   OK 11103203 | 2025-07-28 | 144 records fetched
+2026-07-01 14:14:54,343 [INFO] Fetching: Rodriguez | 2025-07-28
+2026-07-01 14:14:54,837 [INFO]   OK 11102201 | 2025-07-28 | 144 records fetched
+2026-07-01 14:14:56,342 [INFO] Fetching: Sto Nino | 2025-07-29
+2026-07-01 14:14:56,925 [INFO]   OK 11104201 | 2025-07-29 | 144 records fetched
+2026-07-01 14:14:58,430 [INFO] Fetching: Tumana Bridge | 2025-07-29
+2026-07-01 14:14:58,974 [INFO]   OK 11103203 | 2025-07-29 | 144 records fetched
+2026-07-01 14:15:00,483 [INFO] Fetching: Rodriguez | 2025-07-29
+2026-07-01 14:15:01,026 [INFO]   OK 11102201 | 2025-07-29 | 144 records fetched
+2026-07-01 14:15:02,533 [INFO] Fetching: Sto Nino | 2025-07-30
+2026-07-01 14:15:03,170 [INFO]   OK 11104201 | 2025-07-30 | 144 records fetched
+2026-07-01 14:15:04,676 [INFO] Fetching: Tumana Bridge | 2025-07-30
+2026-07-01 14:15:05,223 [INFO]   OK 11103203 | 2025-07-30 | 144 records fetched
+2026-07-01 14:15:06,734 [INFO] Fetching: Rodriguez | 2025-07-30
+2026-07-01 14:15:07,373 [INFO]   OK 11102201 | 2025-07-30 | 144 records fetched
+2026-07-01 14:15:07,567 [INFO]   [Checkpoint] 90/459 requests done | 12960 records saved
+2026-07-01 14:15:09,075 [INFO] Fetching: Sto Nino | 2025-07-31
+2026-07-01 14:15:09,627 [INFO]   OK 11104201 | 2025-07-31 | 144 records fetched
+2026-07-01 14:15:11,133 [INFO] Fetching: Tumana Bridge | 2025-07-31
+2026-07-01 14:15:11,774 [INFO]   OK 11103203 | 2025-07-31 | 144 records fetched
+2026-07-01 14:15:13,285 [INFO] Fetching: Rodriguez | 2025-07-31
+2026-07-01 14:15:13,921 [INFO]   OK 11102201 | 2025-07-31 | 144 records fetched
+2026-07-01 14:15:15,429 [INFO] Fetching: Sto Nino | 2025-08-01
+2026-07-01 14:15:15,971 [INFO]   OK 11104201 | 2025-08-01 | 144 records fetched
+2026-07-01 14:15:17,485 [INFO] Fetching: Tumana Bridge | 2025-08-01
+2026-07-01 14:15:18,024 [INFO]   OK 11103203 | 2025-08-01 | 144 records fetched
+2026-07-01 14:15:19,528 [INFO] Fetching: Rodriguez | 2025-08-01
+2026-07-01 14:15:20,174 [INFO]   OK 11102201 | 2025-08-01 | 144 records fetched
+2026-07-01 14:15:21,684 [INFO] Fetching: Sto Nino | 2025-08-02
+2026-07-01 14:15:22,320 [INFO]   OK 11104201 | 2025-08-02 | 144 records fetched
+2026-07-01 14:15:23,833 [INFO] Fetching: Tumana Bridge | 2025-08-02
+2026-07-01 14:15:24,373 [INFO]   OK 11103203 | 2025-08-02 | 144 records fetched
+2026-07-01 14:15:25,879 [INFO] Fetching: Rodriguez | 2025-08-02
+2026-07-01 14:15:26,375 [INFO]   OK 11102201 | 2025-08-02 | 144 records fetched
+2026-07-01 14:15:27,888 [INFO] Fetching: Sto Nino | 2025-08-03
+2026-07-01 14:15:28,421 [INFO]   OK 11104201 | 2025-08-03 | 144 records fetched
+2026-07-01 14:15:29,935 [INFO] Fetching: Tumana Bridge | 2025-08-03
+2026-07-01 14:15:30,440 [INFO]   OK 11103203 | 2025-08-03 | 144 records fetched
+2026-07-01 14:15:31,945 [INFO] Fetching: Rodriguez | 2025-08-03
+2026-07-01 14:15:32,559 [INFO]   OK 11102201 | 2025-08-03 | 144 records fetched
+2026-07-01 14:15:34,078 [INFO] Fetching: Sto Nino | 2025-08-04
+2026-07-01 14:15:34,610 [INFO]   OK 11104201 | 2025-08-04 | 144 records fetched
+2026-07-01 14:15:36,116 [INFO] Fetching: Tumana Bridge | 2025-08-04
+2026-07-01 14:15:36,653 [INFO]   OK 11103203 | 2025-08-04 | 144 records fetched
+2026-07-01 14:15:38,160 [INFO] Fetching: Rodriguez | 2025-08-04
+2026-07-01 14:15:38,656 [INFO]   OK 11102201 | 2025-08-04 | 144 records fetched
+2026-07-01 14:15:40,184 [INFO] Fetching: Sto Nino | 2025-08-05
+2026-07-01 14:15:40,756 [INFO]   OK 11104201 | 2025-08-05 | 144 records fetched
+2026-07-01 14:15:42,268 [INFO] Fetching: Tumana Bridge | 2025-08-05
+2026-07-01 14:15:42,799 [INFO]   OK 11103203 | 2025-08-05 | 144 records fetched
+2026-07-01 14:15:44,304 [INFO] Fetching: Rodriguez | 2025-08-05
+2026-07-01 14:15:44,848 [INFO]   OK 11102201 | 2025-08-05 | 144 records fetched
+2026-07-01 14:15:46,365 [INFO] Fetching: Sto Nino | 2025-08-06
+2026-07-01 14:15:46,999 [INFO]   OK 11104201 | 2025-08-06 | 144 records fetched
+2026-07-01 14:15:48,516 [INFO] Fetching: Tumana Bridge | 2025-08-06
+2026-07-01 14:15:49,038 [INFO]   OK 11103203 | 2025-08-06 | 144 records fetched
+2026-07-01 14:15:50,551 [INFO] Fetching: Rodriguez | 2025-08-06
+2026-07-01 14:15:51,096 [INFO]   OK 11102201 | 2025-08-06 | 144 records fetched
+2026-07-01 14:15:52,600 [INFO] Fetching: Sto Nino | 2025-08-07
+2026-07-01 14:15:53,150 [INFO]   OK 11104201 | 2025-08-07 | 144 records fetched
+2026-07-01 14:15:54,668 [INFO] Fetching: Tumana Bridge | 2025-08-07
+2026-07-01 14:15:55,214 [INFO]   OK 11103203 | 2025-08-07 | 144 records fetched
+2026-07-01 14:15:56,732 [INFO] Fetching: Rodriguez | 2025-08-07
+2026-07-01 14:15:57,342 [INFO]   OK 11102201 | 2025-08-07 | 144 records fetched
+2026-07-01 14:15:58,854 [INFO] Fetching: Sto Nino | 2025-08-08
+2026-07-01 14:15:59,378 [INFO]   OK 11104201 | 2025-08-08 | 144 records fetched
+2026-07-01 14:16:00,888 [INFO] Fetching: Tumana Bridge | 2025-08-08
+2026-07-01 14:16:01,440 [INFO]   OK 11103203 | 2025-08-08 | 144 records fetched
+2026-07-01 14:16:02,947 [INFO] Fetching: Rodriguez | 2025-08-08
+2026-07-01 14:16:03,462 [INFO]   OK 11102201 | 2025-08-08 | 144 records fetched
+2026-07-01 14:16:04,962 [INFO] Fetching: Sto Nino | 2025-08-09
+2026-07-01 14:16:05,640 [INFO]   OK 11104201 | 2025-08-09 | 144 records fetched
+2026-07-01 14:16:07,151 [INFO] Fetching: Tumana Bridge | 2025-08-09
+2026-07-01 14:16:07,683 [INFO]   OK 11103203 | 2025-08-09 | 144 records fetched
+2026-07-01 14:16:09,188 [INFO] Fetching: Rodriguez | 2025-08-09
+2026-07-01 14:16:09,707 [INFO]   OK 11102201 | 2025-08-09 | 144 records fetched
+2026-07-01 14:16:09,934 [INFO]   [Checkpoint] 120/459 requests done | 17280 records saved
+2026-07-01 14:16:11,440 [INFO] Fetching: Sto Nino | 2025-08-10
+2026-07-01 14:16:11,984 [INFO]   OK 11104201 | 2025-08-10 | 144 records fetched
+2026-07-01 14:16:13,490 [INFO] Fetching: Tumana Bridge | 2025-08-10
+2026-07-01 14:16:14,129 [INFO]   OK 11103203 | 2025-08-10 | 144 records fetched
+2026-07-01 14:16:15,640 [INFO] Fetching: Rodriguez | 2025-08-10
+2026-07-01 14:16:16,150 [INFO]   OK 11102201 | 2025-08-10 | 144 records fetched
+2026-07-01 14:16:17,656 [INFO] Fetching: Sto Nino | 2025-08-11
+2026-07-01 14:16:19,246 [INFO]   OK 11104201 | 2025-08-11 | 144 records fetched
+2026-07-01 14:16:20,750 [INFO] Fetching: Tumana Bridge | 2025-08-11
+2026-07-01 14:16:21,324 [INFO]   OK 11103203 | 2025-08-11 | 144 records fetched
+2026-07-01 14:16:22,835 [INFO] Fetching: Rodriguez | 2025-08-11
+2026-07-01 14:16:24,055 [INFO]   OK 11102201 | 2025-08-11 | 144 records fetched
+2026-07-01 14:16:25,560 [INFO] Fetching: Sto Nino | 2025-08-12
+2026-07-01 14:16:26,113 [INFO]   OK 11104201 | 2025-08-12 | 144 records fetched
+2026-07-01 14:16:27,622 [INFO] Fetching: Tumana Bridge | 2025-08-12
+2026-07-01 14:16:28,344 [INFO]   OK 11103203 | 2025-08-12 | 144 records fetched
+2026-07-01 14:16:29,850 [INFO] Fetching: Rodriguez | 2025-08-12
+2026-07-01 14:16:30,382 [INFO]   OK 11102201 | 2025-08-12 | 144 records fetched
+2026-07-01 14:16:31,889 [INFO] Fetching: Sto Nino | 2025-08-13
+2026-07-01 14:16:32,470 [INFO]   OK 11104201 | 2025-08-13 | 144 records fetched
+2026-07-01 14:16:33,977 [INFO] Fetching: Tumana Bridge | 2025-08-13
+2026-07-01 14:16:34,618 [INFO]   OK 11103203 | 2025-08-13 | 144 records fetched
+2026-07-01 14:16:36,126 [INFO] Fetching: Rodriguez | 2025-08-13
+2026-07-01 14:16:36,616 [INFO]   OK 11102201 | 2025-08-13 | 144 records fetched
+2026-07-01 14:16:38,124 [INFO] Fetching: Sto Nino | 2025-08-14
+2026-07-01 14:16:38,714 [INFO]   OK 11104201 | 2025-08-14 | 144 records fetched
+2026-07-01 14:16:40,218 [INFO] Fetching: Tumana Bridge | 2025-08-14
+2026-07-01 14:16:40,863 [INFO]   OK 11103203 | 2025-08-14 | 144 records fetched
+2026-07-01 14:16:42,367 [INFO] Fetching: Rodriguez | 2025-08-14
+2026-07-01 14:16:43,174 [INFO]   OK 11102201 | 2025-08-14 | 144 records fetched
+2026-07-01 14:16:44,676 [INFO] Fetching: Sto Nino | 2025-08-15
+2026-07-01 14:16:45,272 [INFO]   OK 11104201 | 2025-08-15 | 144 records fetched
+2026-07-01 14:16:46,775 [INFO] Fetching: Tumana Bridge | 2025-08-15
+2026-07-01 14:16:47,351 [INFO]   OK 11103203 | 2025-08-15 | 144 records fetched
+2026-07-01 14:16:48,859 [INFO] Fetching: Rodriguez | 2025-08-15
+2026-07-01 14:16:49,488 [INFO]   OK 11102201 | 2025-08-15 | 144 records fetched
+2026-07-01 14:16:50,993 [INFO] Fetching: Sto Nino | 2025-08-16
+2026-07-01 14:16:51,758 [INFO]   OK 11104201 | 2025-08-16 | 144 records fetched
+2026-07-01 14:16:53,259 [INFO] Fetching: Tumana Bridge | 2025-08-16
+2026-07-01 14:16:53,868 [INFO]   OK 11103203 | 2025-08-16 | 144 records fetched
+2026-07-01 14:16:55,374 [INFO] Fetching: Rodriguez | 2025-08-16
+2026-07-01 14:16:55,879 [INFO]   OK 11102201 | 2025-08-16 | 144 records fetched
+2026-07-01 14:16:57,390 [INFO] Fetching: Sto Nino | 2025-08-17
+2026-07-01 14:16:57,924 [INFO]   OK 11104201 | 2025-08-17 | 144 records fetched
+2026-07-01 14:16:59,427 [INFO] Fetching: Tumana Bridge | 2025-08-17
+2026-07-01 14:16:59,969 [INFO]   OK 11103203 | 2025-08-17 | 144 records fetched
+2026-07-01 14:17:01,484 [INFO] Fetching: Rodriguez | 2025-08-17
+2026-07-01 14:17:02,060 [INFO]   OK 11102201 | 2025-08-17 | 144 records fetched
+2026-07-01 14:17:03,574 [INFO] Fetching: Sto Nino | 2025-08-18
+2026-07-01 14:17:04,191 [INFO]   OK 11104201 | 2025-08-18 | 144 records fetched
+2026-07-01 14:17:05,700 [INFO] Fetching: Tumana Bridge | 2025-08-18
+2026-07-01 14:17:06,259 [INFO]   OK 11103203 | 2025-08-18 | 144 records fetched
+2026-07-01 14:17:07,761 [INFO] Fetching: Rodriguez | 2025-08-18
+2026-07-01 14:17:08,310 [INFO]   OK 11102201 | 2025-08-18 | 144 records fetched
+2026-07-01 14:17:09,818 [INFO] Fetching: Sto Nino | 2025-08-19
+2026-07-01 14:17:10,365 [INFO]   OK 11104201 | 2025-08-19 | 144 records fetched
+2026-07-01 14:17:11,876 [INFO] Fetching: Tumana Bridge | 2025-08-19
+2026-07-01 14:17:12,505 [INFO]   OK 11103203 | 2025-08-19 | 144 records fetched
+2026-07-01 14:17:14,020 [INFO] Fetching: Rodriguez | 2025-08-19
+2026-07-01 14:17:14,655 [INFO]   OK 11102201 | 2025-08-19 | 144 records fetched
+2026-07-01 14:17:14,927 [INFO]   [Checkpoint] 150/459 requests done | 21600 records saved
+2026-07-01 14:17:16,454 [INFO] Fetching: Sto Nino | 2025-08-20
+2026-07-01 14:17:17,008 [INFO]   OK 11104201 | 2025-08-20 | 144 records fetched
+2026-07-01 14:17:18,518 [INFO] Fetching: Tumana Bridge | 2025-08-20
+2026-07-01 14:17:19,167 [INFO]   OK 11103203 | 2025-08-20 | 144 records fetched
+2026-07-01 14:17:20,684 [INFO] Fetching: Rodriguez | 2025-08-20
+2026-07-01 14:17:21,313 [INFO]   OK 11102201 | 2025-08-20 | 144 records fetched
+2026-07-01 14:17:22,823 [INFO] Fetching: Sto Nino | 2025-08-21
+2026-07-01 14:17:23,359 [INFO]   OK 11104201 | 2025-08-21 | 144 records fetched
+2026-07-01 14:17:24,870 [INFO] Fetching: Tumana Bridge | 2025-08-21
+2026-07-01 14:17:25,511 [INFO]   OK 11103203 | 2025-08-21 | 144 records fetched
+2026-07-01 14:17:27,020 [INFO] Fetching: Rodriguez | 2025-08-21
+2026-07-01 14:17:27,555 [INFO]   OK 11102201 | 2025-08-21 | 144 records fetched
+2026-07-01 14:17:29,062 [INFO] Fetching: Sto Nino | 2025-08-22
+2026-07-01 14:17:29,596 [INFO]   OK 11104201 | 2025-08-22 | 144 records fetched
+2026-07-01 14:17:31,109 [INFO] Fetching: Tumana Bridge | 2025-08-22
+2026-07-01 14:17:31,641 [INFO]   OK 11103203 | 2025-08-22 | 144 records fetched
+2026-07-01 14:17:33,155 [INFO] Fetching: Rodriguez | 2025-08-22
+2026-07-01 14:17:33,894 [INFO]   OK 11102201 | 2025-08-22 | 144 records fetched
+2026-07-01 14:17:35,403 [INFO] Fetching: Sto Nino | 2025-08-23
+2026-07-01 14:17:35,956 [INFO]   OK 11104201 | 2025-08-23 | 144 records fetched
+2026-07-01 14:17:37,459 [INFO] Fetching: Tumana Bridge | 2025-08-23
+2026-07-01 14:17:38,001 [INFO]   OK 11103203 | 2025-08-23 | 144 records fetched
+2026-07-01 14:17:39,506 [INFO] Fetching: Rodriguez | 2025-08-23
+2026-07-01 14:17:40,049 [INFO]   OK 11102201 | 2025-08-23 | 144 records fetched
+2026-07-01 14:17:41,555 [INFO] Fetching: Sto Nino | 2025-08-24
+2026-07-01 14:17:42,084 [INFO]   OK 11104201 | 2025-08-24 | 144 records fetched
+2026-07-01 14:17:43,594 [INFO] Fetching: Tumana Bridge | 2025-08-24
+2026-07-01 14:17:44,143 [INFO]   OK 11103203 | 2025-08-24 | 144 records fetched
+2026-07-01 14:17:46,136 [INFO] Fetching: Rodriguez | 2025-08-24
+2026-07-01 14:17:48,709 [INFO]   OK 11102201 | 2025-08-24 | 144 records fetched
+2026-07-01 14:17:50,219 [INFO] Fetching: Sto Nino | 2025-08-25
+2026-07-01 14:17:50,724 [INFO]   OK 11104201 | 2025-08-25 | 144 records fetched
+2026-07-01 14:17:52,227 [INFO] Fetching: Tumana Bridge | 2025-08-25
+2026-07-01 14:17:52,801 [INFO]   OK 11103203 | 2025-08-25 | 144 records fetched
+2026-07-01 14:17:54,316 [INFO] Fetching: Rodriguez | 2025-08-25
+2026-07-01 14:17:54,898 [INFO]   OK 11102201 | 2025-08-25 | 144 records fetched
+2026-07-01 14:17:56,407 [INFO] Fetching: Sto Nino | 2025-08-26
+2026-07-01 14:17:56,966 [INFO]   OK 11104201 | 2025-08-26 | 144 records fetched
+2026-07-01 14:17:58,476 [INFO] Fetching: Tumana Bridge | 2025-08-26
+2026-07-01 14:17:59,012 [INFO]   OK 11103203 | 2025-08-26 | 144 records fetched
+2026-07-01 14:18:00,518 [INFO] Fetching: Rodriguez | 2025-08-26
+2026-07-01 14:18:01,054 [INFO]   OK 11102201 | 2025-08-26 | 144 records fetched
+2026-07-01 14:18:02,563 [INFO] Fetching: Sto Nino | 2025-08-27
+2026-07-01 14:18:03,103 [INFO]   OK 11104201 | 2025-08-27 | 144 records fetched
+2026-07-01 14:18:04,614 [INFO] Fetching: Tumana Bridge | 2025-08-27
+2026-07-01 14:18:05,139 [INFO]   OK 11103203 | 2025-08-27 | 144 records fetched
+2026-07-01 14:18:06,648 [INFO] Fetching: Rodriguez | 2025-08-27
+2026-07-01 14:18:09,449 [INFO]   OK 11102201 | 2025-08-27 | 144 records fetched
+2026-07-01 14:18:10,957 [INFO] Fetching: Sto Nino | 2025-08-28
+2026-07-01 14:18:11,505 [INFO]   OK 11104201 | 2025-08-28 | 144 records fetched
+2026-07-01 14:18:13,011 [INFO] Fetching: Tumana Bridge | 2025-08-28
+2026-07-01 14:18:13,539 [INFO]   OK 11103203 | 2025-08-28 | 144 records fetched
+2026-07-01 14:18:15,046 [INFO] Fetching: Rodriguez | 2025-08-28
+2026-07-01 14:18:15,575 [INFO]   OK 11102201 | 2025-08-28 | 144 records fetched
+2026-07-01 14:18:17,082 [INFO] Fetching: Sto Nino | 2025-08-29
+2026-07-01 14:18:17,635 [INFO]   OK 11104201 | 2025-08-29 | 144 records fetched
+2026-07-01 14:18:19,143 [INFO] Fetching: Tumana Bridge | 2025-08-29
+2026-07-01 14:18:20,092 [INFO]   OK 11103203 | 2025-08-29 | 144 records fetched
+2026-07-01 14:18:21,596 [INFO] Fetching: Rodriguez | 2025-08-29
+2026-07-01 14:18:22,137 [INFO]   OK 11102201 | 2025-08-29 | 144 records fetched
+2026-07-01 14:18:22,501 [INFO]   [Checkpoint] 180/459 requests done | 25920 records saved
+2026-07-01 14:18:24,006 [INFO] Fetching: Sto Nino | 2025-08-30
+2026-07-01 14:18:24,665 [INFO]   OK 11104201 | 2025-08-30 | 144 records fetched
+2026-07-01 14:18:26,173 [INFO] Fetching: Tumana Bridge | 2025-08-30
+2026-07-01 14:18:26,750 [INFO]   OK 11103203 | 2025-08-30 | 144 records fetched
+2026-07-01 14:18:28,263 [INFO] Fetching: Rodriguez | 2025-08-30
+2026-07-01 14:18:28,791 [INFO]   OK 11102201 | 2025-08-30 | 144 records fetched
+2026-07-01 14:18:30,310 [INFO] Fetching: Sto Nino | 2025-08-31
+2026-07-01 14:18:30,840 [INFO]   OK 11104201 | 2025-08-31 | 144 records fetched
+2026-07-01 14:18:32,350 [INFO] Fetching: Tumana Bridge | 2025-08-31
+2026-07-01 14:18:32,985 [INFO]   OK 11103203 | 2025-08-31 | 144 records fetched
+2026-07-01 14:18:34,500 [INFO] Fetching: Rodriguez | 2025-08-31
+2026-07-01 14:18:35,111 [INFO]   OK 11102201 | 2025-08-31 | 144 records fetched
+2026-07-01 14:18:36,615 [INFO] Fetching: Sto Nino | 2025-09-01
+2026-07-01 14:18:37,127 [INFO]   OK 11104201 | 2025-09-01 | 144 records fetched
+2026-07-01 14:18:38,628 [INFO] Fetching: Tumana Bridge | 2025-09-01
+2026-07-01 14:18:39,128 [INFO]   OK 11103203 | 2025-09-01 | 144 records fetched
+2026-07-01 14:18:40,649 [INFO] Fetching: Rodriguez | 2025-09-01
+2026-07-01 14:18:41,286 [INFO]   OK 11102201 | 2025-09-01 | 144 records fetched
+2026-07-01 14:18:42,800 [INFO] Fetching: Sto Nino | 2025-09-02
+2026-07-01 14:18:43,341 [INFO]   OK 11104201 | 2025-09-02 | 144 records fetched
+2026-07-01 14:18:44,850 [INFO] Fetching: Tumana Bridge | 2025-09-02
+2026-07-01 14:18:45,484 [INFO]   OK 11103203 | 2025-09-02 | 144 records fetched
+2026-07-01 14:18:46,996 [INFO] Fetching: Rodriguez | 2025-09-02
+2026-07-01 14:18:47,556 [INFO]   OK 11102201 | 2025-09-02 | 144 records fetched
+2026-07-01 14:18:49,060 [INFO] Fetching: Sto Nino | 2025-09-03
+2026-07-01 14:18:49,690 [INFO]   OK 11104201 | 2025-09-03 | 144 records fetched
+2026-07-01 14:18:51,196 [INFO] Fetching: Tumana Bridge | 2025-09-03
+2026-07-01 14:18:51,831 [INFO]   OK 11103203 | 2025-09-03 | 144 records fetched
+2026-07-01 14:18:53,341 [INFO] Fetching: Rodriguez | 2025-09-03
+2026-07-01 14:18:53,863 [INFO]   OK 11102201 | 2025-09-03 | 144 records fetched
+2026-07-01 14:18:55,381 [INFO] Fetching: Sto Nino | 2025-09-04
+2026-07-01 14:18:55,918 [INFO]   OK 11104201 | 2025-09-04 | 144 records fetched
+2026-07-01 14:18:57,425 [INFO] Fetching: Tumana Bridge | 2025-09-04
+2026-07-01 14:18:57,955 [INFO]   OK 11103203 | 2025-09-04 | 144 records fetched
+2026-07-01 14:18:59,469 [INFO] Fetching: Rodriguez | 2025-09-04
+2026-07-01 14:19:00,000 [INFO]   OK 11102201 | 2025-09-04 | 144 records fetched
+2026-07-01 14:19:01,507 [INFO] Fetching: Sto Nino | 2025-09-05
+2026-07-01 14:19:02,069 [INFO]   OK 11104201 | 2025-09-05 | 144 records fetched
+2026-07-01 14:19:03,582 [INFO] Fetching: Tumana Bridge | 2025-09-05
+2026-07-01 14:19:04,223 [INFO]   OK 11103203 | 2025-09-05 | 144 records fetched
+2026-07-01 14:19:05,733 [INFO] Fetching: Rodriguez | 2025-09-05
+2026-07-01 14:19:06,262 [INFO]   OK 11102201 | 2025-09-05 | 144 records fetched
+2026-07-01 14:19:07,768 [INFO] Fetching: Sto Nino | 2025-09-06
+2026-07-01 14:19:08,302 [INFO]   OK 11104201 | 2025-09-06 | 144 records fetched
+2026-07-01 14:19:09,807 [INFO] Fetching: Tumana Bridge | 2025-09-06
+2026-07-01 14:19:10,357 [INFO]   OK 11103203 | 2025-09-06 | 144 records fetched
+2026-07-01 14:19:11,870 [INFO] Fetching: Rodriguez | 2025-09-06
+2026-07-01 14:19:12,425 [INFO]   OK 11102201 | 2025-09-06 | 144 records fetched
+2026-07-01 14:19:13,943 [INFO] Fetching: Sto Nino | 2025-09-07
+2026-07-01 14:19:14,451 [INFO]   OK 11104201 | 2025-09-07 | 144 records fetched
+2026-07-01 14:19:15,957 [INFO] Fetching: Tumana Bridge | 2025-09-07
+2026-07-01 14:19:16,511 [INFO]   OK 11103203 | 2025-09-07 | 144 records fetched
+2026-07-01 14:19:18,013 [INFO] Fetching: Rodriguez | 2025-09-07
+2026-07-01 14:19:18,560 [INFO]   OK 11102201 | 2025-09-07 | 144 records fetched
+2026-07-01 14:19:20,069 [INFO] Fetching: Sto Nino | 2025-09-08
+2026-07-01 14:19:20,594 [INFO]   OK 11104201 | 2025-09-08 | 144 records fetched
+2026-07-01 14:19:22,102 [INFO] Fetching: Tumana Bridge | 2025-09-08
+2026-07-01 14:19:22,655 [INFO]   OK 11103203 | 2025-09-08 | 144 records fetched
+2026-07-01 14:19:24,163 [INFO] Fetching: Rodriguez | 2025-09-08
+2026-07-01 14:19:24,663 [INFO]   OK 11102201 | 2025-09-08 | 144 records fetched
+2026-07-01 14:19:25,162 [INFO]   [Checkpoint] 210/459 requests done | 30240 records saved
+2026-07-01 14:19:26,674 [INFO] Fetching: Sto Nino | 2025-09-09
+2026-07-01 14:19:27,263 [INFO]   OK 11104201 | 2025-09-09 | 144 records fetched
+2026-07-01 14:19:28,784 [INFO] Fetching: Tumana Bridge | 2025-09-09
+2026-07-01 14:19:29,390 [INFO]   OK 11103203 | 2025-09-09 | 144 records fetched
+2026-07-01 14:19:30,894 [INFO] Fetching: Rodriguez | 2025-09-09
+2026-07-01 14:19:31,397 [INFO]   OK 11102201 | 2025-09-09 | 144 records fetched
+2026-07-01 14:19:32,904 [INFO] Fetching: Sto Nino | 2025-09-10
+2026-07-01 14:19:33,507 [INFO]   OK 11104201 | 2025-09-10 | 144 records fetched
+2026-07-01 14:19:35,012 [INFO] Fetching: Tumana Bridge | 2025-09-10
+2026-07-01 14:19:35,517 [INFO]   OK 11103203 | 2025-09-10 | 144 records fetched
+2026-07-01 14:19:37,022 [INFO] Fetching: Rodriguez | 2025-09-10
+2026-07-01 14:19:37,557 [INFO]   OK 11102201 | 2025-09-10 | 144 records fetched
+2026-07-01 14:19:39,061 [INFO] Fetching: Sto Nino | 2025-09-11
+2026-07-01 14:19:39,603 [INFO]   OK 11104201 | 2025-09-11 | 144 records fetched
+2026-07-01 14:19:41,109 [INFO] Fetching: Tumana Bridge | 2025-09-11
+2026-07-01 14:19:41,622 [INFO]   OK 11103203 | 2025-09-11 | 144 records fetched
+2026-07-01 14:19:43,137 [INFO] Fetching: Rodriguez | 2025-09-11
+2026-07-01 14:19:43,746 [INFO]   OK 11102201 | 2025-09-11 | 144 records fetched
+2026-07-01 14:19:45,256 [INFO] Fetching: Sto Nino | 2025-09-12
+2026-07-01 14:19:45,798 [INFO]   OK 11104201 | 2025-09-12 | 144 records fetched
+2026-07-01 14:19:47,306 [INFO] Fetching: Tumana Bridge | 2025-09-12
+2026-07-01 14:19:47,948 [INFO]   OK 11103203 | 2025-09-12 | 144 records fetched
+2026-07-01 14:19:49,452 [INFO] Fetching: Rodriguez | 2025-09-12
+2026-07-01 14:19:49,999 [INFO]   OK 11102201 | 2025-09-12 | 144 records fetched
+2026-07-01 14:19:51,504 [INFO] Fetching: Sto Nino | 2025-09-13
+2026-07-01 14:19:52,148 [INFO]   OK 11104201 | 2025-09-13 | 144 records fetched
+2026-07-01 14:19:53,655 [INFO] Fetching: Tumana Bridge | 2025-09-13
+2026-07-01 14:19:54,289 [INFO]   OK 11103203 | 2025-09-13 | 144 records fetched
+2026-07-01 14:19:55,803 [INFO] Fetching: Rodriguez | 2025-09-13
+2026-07-01 14:19:56,442 [INFO]   OK 11102201 | 2025-09-13 | 144 records fetched
+2026-07-01 14:19:57,945 [INFO] Fetching: Sto Nino | 2025-09-14
+2026-07-01 14:19:58,494 [INFO]   OK 11104201 | 2025-09-14 | 144 records fetched
+2026-07-01 14:19:59,996 [INFO] Fetching: Tumana Bridge | 2025-09-14
+2026-07-01 14:20:00,543 [INFO]   OK 11103203 | 2025-09-14 | 144 records fetched
+2026-07-01 14:20:02,047 [INFO] Fetching: Rodriguez | 2025-09-14
+2026-07-01 14:20:02,694 [INFO]   OK 11102201 | 2025-09-14 | 144 records fetched
+2026-07-01 14:20:04,199 [INFO] Fetching: Sto Nino | 2025-09-15
+2026-07-01 14:20:04,846 [INFO]   OK 11104201 | 2025-09-15 | 144 records fetched
+2026-07-01 14:20:06,346 [INFO] Fetching: Tumana Bridge | 2025-09-15
+2026-07-01 14:20:06,892 [INFO]   OK 11103203 | 2025-09-15 | 144 records fetched
+2026-07-01 14:20:08,402 [INFO] Fetching: Rodriguez | 2025-09-15
+2026-07-01 14:20:09,042 [INFO]   OK 11102201 | 2025-09-15 | 144 records fetched
+2026-07-01 14:20:10,557 [INFO] Fetching: Sto Nino | 2025-09-16
+2026-07-01 14:20:11,192 [INFO]   OK 11104201 | 2025-09-16 | 144 records fetched
+2026-07-01 14:20:12,703 [INFO] Fetching: Tumana Bridge | 2025-09-16
+2026-07-01 14:20:13,343 [INFO]   OK 11103203 | 2025-09-16 | 144 records fetched
+2026-07-01 14:20:14,856 [INFO] Fetching: Rodriguez | 2025-09-16
+2026-07-01 14:20:15,493 [INFO]   OK 11102201 | 2025-09-16 | 144 records fetched
+2026-07-01 14:20:17,002 [INFO] Fetching: Sto Nino | 2025-09-17
+2026-07-01 14:20:17,644 [INFO]   OK 11104201 | 2025-09-17 | 144 records fetched
+2026-07-01 14:20:19,150 [INFO] Fetching: Tumana Bridge | 2025-09-17
+2026-07-01 14:20:19,690 [INFO]   OK 11103203 | 2025-09-17 | 144 records fetched
+2026-07-01 14:20:21,207 [INFO] Fetching: Rodriguez | 2025-09-17
+2026-07-01 14:20:21,737 [INFO]   OK 11102201 | 2025-09-17 | 144 records fetched
+2026-07-01 14:20:23,240 [INFO] Fetching: Sto Nino | 2025-09-18
+2026-07-01 14:20:23,887 [INFO]   OK 11104201 | 2025-09-18 | 144 records fetched
+2026-07-01 14:20:25,396 [INFO] Fetching: Tumana Bridge | 2025-09-18
+2026-07-01 14:20:25,935 [INFO]   OK 11103203 | 2025-09-18 | 144 records fetched
+2026-07-01 14:20:27,441 [INFO] Fetching: Rodriguez | 2025-09-18
+2026-07-01 14:20:27,984 [INFO]   OK 11102201 | 2025-09-18 | 144 records fetched
+2026-07-01 14:20:28,432 [INFO]   [Checkpoint] 240/459 requests done | 34560 records saved
+2026-07-01 14:20:29,936 [INFO] Fetching: Sto Nino | 2025-09-19
+2026-07-01 14:20:30,546 [INFO]   OK 11104201 | 2025-09-19 | 144 records fetched
+2026-07-01 14:20:32,050 [INFO] Fetching: Tumana Bridge | 2025-09-19
+2026-07-01 14:20:32,657 [INFO]   OK 11103203 | 2025-09-19 | 144 records fetched
+2026-07-01 14:20:34,175 [INFO] Fetching: Rodriguez | 2025-09-19
+2026-07-01 14:20:34,767 [INFO]   OK 11102201 | 2025-09-19 | 144 records fetched
+2026-07-01 14:20:36,271 [INFO] Fetching: Sto Nino | 2025-09-20
+2026-07-01 14:20:36,894 [INFO]   OK 11104201 | 2025-09-20 | 144 records fetched
+2026-07-01 14:20:38,398 [INFO] Fetching: Tumana Bridge | 2025-09-20
+2026-07-01 14:20:38,910 [INFO]   OK 11103203 | 2025-09-20 | 144 records fetched
+2026-07-01 14:20:40,418 [INFO] Fetching: Rodriguez | 2025-09-20
+2026-07-01 14:20:41,296 [INFO]   OK 11102201 | 2025-09-20 | 144 records fetched
+2026-07-01 14:20:42,812 [INFO] Fetching: Sto Nino | 2025-09-21
+2026-07-01 14:20:43,344 [INFO]   OK 11104201 | 2025-09-21 | 144 records fetched
+2026-07-01 14:20:44,860 [INFO] Fetching: Tumana Bridge | 2025-09-21
+2026-07-01 14:20:45,498 [INFO]   OK 11103203 | 2025-09-21 | 144 records fetched
+2026-07-01 14:20:47,016 [INFO] Fetching: Rodriguez | 2025-09-21
+2026-07-01 14:20:47,645 [INFO]   OK 11102201 | 2025-09-21 | 144 records fetched
+2026-07-01 14:20:49,162 [INFO] Fetching: Sto Nino | 2025-09-22
+2026-07-01 14:20:49,795 [INFO]   OK 11104201 | 2025-09-22 | 144 records fetched
+2026-07-01 14:20:51,301 [INFO] Fetching: Tumana Bridge | 2025-09-22
+2026-07-01 14:20:51,896 [INFO]   OK 11103203 | 2025-09-22 | 144 records fetched
+2026-07-01 14:20:53,412 [INFO] Fetching: Rodriguez | 2025-09-22
+2026-07-01 14:20:54,197 [INFO]   OK 11102201 | 2025-09-22 | 144 records fetched
+2026-07-01 14:20:55,704 [INFO] Fetching: Sto Nino | 2025-09-23
+2026-07-01 14:20:56,456 [INFO]   OK 11104201 | 2025-09-23 | 144 records fetched
+2026-07-01 14:20:57,971 [INFO] Fetching: Tumana Bridge | 2025-09-23
+2026-07-01 14:20:58,500 [INFO]   OK 11103203 | 2025-09-23 | 144 records fetched
+2026-07-01 14:21:00,008 [INFO] Fetching: Rodriguez | 2025-09-23
+2026-07-01 14:21:00,551 [INFO]   OK 11102201 | 2025-09-23 | 144 records fetched
+2026-07-01 14:21:02,057 [INFO] Fetching: Sto Nino | 2025-09-24
+2026-07-01 14:21:02,797 [INFO]   OK 11104201 | 2025-09-24 | 144 records fetched
+2026-07-01 14:21:04,301 [INFO] Fetching: Tumana Bridge | 2025-09-24
+2026-07-01 14:21:04,947 [INFO]   OK 11103203 | 2025-09-24 | 144 records fetched
+2026-07-01 14:21:06,457 [INFO] Fetching: Rodriguez | 2025-09-24
+2026-07-01 14:21:07,098 [INFO]   OK 11102201 | 2025-09-24 | 144 records fetched
+2026-07-01 14:21:08,619 [INFO] Fetching: Sto Nino | 2025-09-25
+2026-07-01 14:21:09,250 [INFO]   OK 11104201 | 2025-09-25 | 144 records fetched
+2026-07-01 14:21:10,751 [INFO] Fetching: Tumana Bridge | 2025-09-25
+2026-07-01 14:21:11,509 [INFO]   OK 11103203 | 2025-09-25 | 144 records fetched
+2026-07-01 14:21:13,019 [INFO] Fetching: Rodriguez | 2025-09-25
+2026-07-01 14:21:13,540 [INFO]   OK 11102201 | 2025-09-25 | 144 records fetched
+2026-07-01 14:21:15,044 [INFO] Fetching: Sto Nino | 2025-09-26
+2026-07-01 14:21:15,577 [INFO]   OK 11104201 | 2025-09-26 | 144 records fetched
+2026-07-01 14:21:17,090 [INFO] Fetching: Tumana Bridge | 2025-09-26
+2026-07-01 14:21:17,610 [INFO]   OK 11103203 | 2025-09-26 | 144 records fetched
+2026-07-01 14:21:19,111 [INFO] Fetching: Rodriguez | 2025-09-26
+2026-07-01 14:21:19,657 [INFO]   OK 11102201 | 2025-09-26 | 144 records fetched
+2026-07-01 14:21:21,163 [INFO] Fetching: Sto Nino | 2025-09-27
+2026-07-01 14:21:21,725 [INFO]   OK 11104201 | 2025-09-27 | 144 records fetched
+2026-07-01 14:21:23,243 [INFO] Fetching: Tumana Bridge | 2025-09-27
+2026-07-01 14:21:23,891 [INFO]   OK 11103203 | 2025-09-27 | 144 records fetched
+2026-07-01 14:21:25,407 [INFO] Fetching: Rodriguez | 2025-09-27
+2026-07-01 14:21:26,042 [INFO]   OK 11102201 | 2025-09-27 | 144 records fetched
+2026-07-01 14:21:27,558 [INFO] Fetching: Sto Nino | 2025-09-28
+2026-07-01 14:21:28,075 [INFO]   OK 11104201 | 2025-09-28 | 144 records fetched
+2026-07-01 14:21:29,584 [INFO] Fetching: Tumana Bridge | 2025-09-28
+2026-07-01 14:21:30,449 [INFO]   OK 11103203 | 2025-09-28 | 144 records fetched
+2026-07-01 14:21:31,955 [INFO] Fetching: Rodriguez | 2025-09-28
+2026-07-01 14:21:32,697 [INFO]   OK 11102201 | 2025-09-28 | 144 records fetched
+2026-07-01 14:21:33,203 [INFO]   [Checkpoint] 270/459 requests done | 38880 records saved
+2026-07-01 14:21:34,704 [INFO] Fetching: Sto Nino | 2025-09-29
+2026-07-01 14:21:35,262 [INFO]   OK 11104201 | 2025-09-29 | 144 records fetched
+2026-07-01 14:21:36,777 [INFO] Fetching: Tumana Bridge | 2025-09-29
+2026-07-01 14:21:37,414 [INFO]   OK 11103203 | 2025-09-29 | 144 records fetched
+2026-07-01 14:21:38,927 [INFO] Fetching: Rodriguez | 2025-09-29
+2026-07-01 14:21:39,457 [INFO]   OK 11102201 | 2025-09-29 | 144 records fetched
+2026-07-01 14:21:40,969 [INFO] Fetching: Sto Nino | 2025-09-30
+2026-07-01 14:21:41,496 [INFO]   OK 11104201 | 2025-09-30 | 144 records fetched
+2026-07-01 14:21:43,008 [INFO] Fetching: Tumana Bridge | 2025-09-30
+2026-07-01 14:21:43,528 [INFO]   OK 11103203 | 2025-09-30 | 144 records fetched
+2026-07-01 14:21:45,037 [INFO] Fetching: Rodriguez | 2025-09-30
+2026-07-01 14:21:45,534 [INFO]   OK 11102201 | 2025-09-30 | 144 records fetched
+2026-07-01 14:21:47,044 [INFO] Fetching: Sto Nino | 2025-10-01
+2026-07-01 14:21:47,587 [INFO]   OK 11104201 | 2025-10-01 | 144 records fetched
+2026-07-01 14:21:49,096 [INFO] Fetching: Tumana Bridge | 2025-10-01
+2026-07-01 14:21:49,697 [INFO]   OK 11103203 | 2025-10-01 | 144 records fetched
+2026-07-01 14:21:51,213 [INFO] Fetching: Rodriguez | 2025-10-01
+2026-07-01 14:21:51,739 [INFO]   OK 11102201 | 2025-10-01 | 144 records fetched
+2026-07-01 14:21:53,246 [INFO] Fetching: Sto Nino | 2025-10-02
+2026-07-01 14:21:53,797 [INFO]   OK 11104201 | 2025-10-02 | 144 records fetched
+2026-07-01 14:21:55,308 [INFO] Fetching: Tumana Bridge | 2025-10-02
+2026-07-01 14:21:55,944 [INFO]   OK 11103203 | 2025-10-02 | 144 records fetched
+2026-07-01 14:21:57,455 [INFO] Fetching: Rodriguez | 2025-10-02
+2026-07-01 14:21:58,093 [INFO]   OK 11102201 | 2025-10-02 | 144 records fetched
+2026-07-01 14:21:59,608 [INFO] Fetching: Sto Nino | 2025-10-03
+2026-07-01 14:22:00,243 [INFO]   OK 11104201 | 2025-10-03 | 144 records fetched
+2026-07-01 14:22:01,764 [INFO] Fetching: Tumana Bridge | 2025-10-03
+2026-07-01 14:22:02,397 [INFO]   OK 11103203 | 2025-10-03 | 144 records fetched
+2026-07-01 14:22:03,906 [INFO] Fetching: Rodriguez | 2025-10-03
+2026-07-01 14:22:04,440 [INFO]   OK 11102201 | 2025-10-03 | 144 records fetched
+2026-07-01 14:22:05,962 [INFO] Fetching: Sto Nino | 2025-10-04
+2026-07-01 14:22:06,593 [INFO]   OK 11104201 | 2025-10-04 | 144 records fetched
+2026-07-01 14:22:08,113 [INFO] Fetching: Tumana Bridge | 2025-10-04
+2026-07-01 14:22:08,649 [INFO]   OK 11103203 | 2025-10-04 | 144 records fetched
+2026-07-01 14:22:10,163 [INFO] Fetching: Rodriguez | 2025-10-04
+2026-07-01 14:22:10,791 [INFO]   OK 11102201 | 2025-10-04 | 144 records fetched
+2026-07-01 14:22:12,300 [INFO] Fetching: Sto Nino | 2025-10-05
+2026-07-01 14:22:12,801 [INFO]   OK 11104201 | 2025-10-05 | 144 records fetched
+2026-07-01 14:22:14,313 [INFO] Fetching: Tumana Bridge | 2025-10-05
+2026-07-01 14:22:14,896 [INFO]   OK 11103203 | 2025-10-05 | 144 records fetched
+2026-07-01 14:22:16,414 [INFO] Fetching: Rodriguez | 2025-10-05
+2026-07-01 14:22:17,138 [INFO]   OK 11102201 | 2025-10-05 | 144 records fetched
+2026-07-01 14:22:18,646 [INFO] Fetching: Sto Nino | 2025-10-06
+2026-07-01 14:22:19,187 [INFO]   OK 11104201 | 2025-10-06 | 144 records fetched
+2026-07-01 14:22:20,689 [INFO] Fetching: Tumana Bridge | 2025-10-06
+2026-07-01 14:22:21,317 [INFO]   OK 11103203 | 2025-10-06 | 144 records fetched
+2026-07-01 14:22:22,827 [INFO] Fetching: Rodriguez | 2025-10-06
+2026-07-01 14:22:23,383 [INFO]   OK 11102201 | 2025-10-06 | 144 records fetched
+2026-07-01 14:22:24,899 [INFO] Fetching: Sto Nino | 2025-10-07
+2026-07-01 14:22:25,441 [INFO]   OK 11104201 | 2025-10-07 | 144 records fetched
+2026-07-01 14:22:26,949 [INFO] Fetching: Tumana Bridge | 2025-10-07
+2026-07-01 14:22:27,488 [INFO]   OK 11103203 | 2025-10-07 | 144 records fetched
+2026-07-01 14:22:28,999 [INFO] Fetching: Rodriguez | 2025-10-07
+2026-07-01 14:22:29,518 [INFO]   OK 11102201 | 2025-10-07 | 144 records fetched
+2026-07-01 14:22:31,029 [INFO] Fetching: Sto Nino | 2025-10-08
+2026-07-01 14:22:31,557 [INFO]   OK 11104201 | 2025-10-08 | 144 records fetched
+2026-07-01 14:22:33,061 [INFO] Fetching: Tumana Bridge | 2025-10-08
+2026-07-01 14:22:33,565 [INFO]   OK 11103203 | 2025-10-08 | 144 records fetched
+2026-07-01 14:22:35,076 [INFO] Fetching: Rodriguez | 2025-10-08
+2026-07-01 14:22:35,589 [INFO]   OK 11102201 | 2025-10-08 | 144 records fetched
+2026-07-01 14:22:36,127 [INFO]   [Checkpoint] 300/459 requests done | 43200 records saved
+2026-07-01 14:22:37,645 [INFO] Fetching: Sto Nino | 2025-10-09
+2026-07-01 14:22:38,163 [INFO]   OK 11104201 | 2025-10-09 | 144 records fetched
+2026-07-01 14:22:39,682 [INFO] Fetching: Tumana Bridge | 2025-10-09
+2026-07-01 14:22:40,275 [INFO]   OK 11103203 | 2025-10-09 | 144 records fetched
+2026-07-01 14:22:41,783 [INFO] Fetching: Rodriguez | 2025-10-09
+2026-07-01 14:22:42,346 [INFO]   OK 11102201 | 2025-10-09 | 144 records fetched
+2026-07-01 14:22:43,862 [INFO] Fetching: Sto Nino | 2025-10-10
+2026-07-01 14:22:44,481 [INFO]   OK 11104201 | 2025-10-10 | 144 records fetched
+2026-07-01 14:22:45,990 [INFO] Fetching: Tumana Bridge | 2025-10-10
+2026-07-01 14:22:46,631 [INFO]   OK 11103203 | 2025-10-10 | 144 records fetched
+2026-07-01 14:22:48,147 [INFO] Fetching: Rodriguez | 2025-10-10
+2026-07-01 14:22:48,655 [INFO]   OK 11102201 | 2025-10-10 | 144 records fetched
+2026-07-01 14:22:50,163 [INFO] Fetching: Sto Nino | 2025-10-11
+2026-07-01 14:22:50,682 [INFO]   OK 11104201 | 2025-10-11 | 144 records fetched
+2026-07-01 14:22:52,198 [INFO] Fetching: Tumana Bridge | 2025-10-11
+2026-07-01 14:22:52,703 [INFO]   OK 11103203 | 2025-10-11 | 144 records fetched
+2026-07-01 14:22:54,216 [INFO] Fetching: Rodriguez | 2025-10-11
+2026-07-01 14:22:54,819 [INFO]   OK 11102201 | 2025-10-11 | 144 records fetched
+2026-07-01 14:22:56,348 [INFO] Fetching: Sto Nino | 2025-10-12
+2026-07-01 14:22:56,974 [INFO]   OK 11104201 | 2025-10-12 | 144 records fetched
+2026-07-01 14:22:58,487 [INFO] Fetching: Tumana Bridge | 2025-10-12
+2026-07-01 14:22:58,999 [INFO]   OK 11103203 | 2025-10-12 | 144 records fetched
+2026-07-01 14:23:00,514 [INFO] Fetching: Rodriguez | 2025-10-12
+2026-07-01 14:23:01,368 [INFO]   OK 11102201 | 2025-10-12 | 144 records fetched
+2026-07-01 14:23:02,880 [INFO] Fetching: Sto Nino | 2025-10-13
+2026-07-01 14:23:03,407 [INFO]   OK 11104201 | 2025-10-13 | 144 records fetched
+2026-07-01 14:23:04,914 [INFO] Fetching: Tumana Bridge | 2025-10-13
+2026-07-01 14:23:05,434 [INFO]   OK 11103203 | 2025-10-13 | 144 records fetched
+2026-07-01 14:23:06,947 [INFO] Fetching: Rodriguez | 2025-10-13
+2026-07-01 14:23:07,461 [INFO]   OK 11102201 | 2025-10-13 | 144 records fetched
+2026-07-01 14:23:08,980 [INFO] Fetching: Sto Nino | 2025-10-14
+2026-07-01 14:23:09,505 [INFO]   OK 11104201 | 2025-10-14 | 144 records fetched
+2026-07-01 14:23:11,015 [INFO] Fetching: Tumana Bridge | 2025-10-14
+2026-07-01 14:23:11,508 [INFO]   OK 11103203 | 2025-10-14 | 144 records fetched
+2026-07-01 14:23:13,017 [INFO] Fetching: Rodriguez | 2025-10-14
+2026-07-01 14:23:13,542 [INFO]   OK 11102201 | 2025-10-14 | 144 records fetched
+2026-07-01 14:23:15,051 [INFO] Fetching: Sto Nino | 2025-10-15
+2026-07-01 14:23:15,561 [INFO]   OK 11104201 | 2025-10-15 | 144 records fetched
+2026-07-01 14:23:17,068 [INFO] Fetching: Tumana Bridge | 2025-10-15
+2026-07-01 14:23:17,621 [INFO]   OK 11103203 | 2025-10-15 | 144 records fetched
+2026-07-01 14:23:19,140 [INFO] Fetching: Rodriguez | 2025-10-15
+2026-07-01 14:23:19,710 [INFO]   OK 11102201 | 2025-10-15 | 144 records fetched
+2026-07-01 14:23:21,219 [INFO] Fetching: Sto Nino | 2025-10-16
+2026-07-01 14:23:21,856 [INFO]   OK 11104201 | 2025-10-16 | 144 records fetched
+2026-07-01 14:23:23,372 [INFO] Fetching: Tumana Bridge | 2025-10-16
+2026-07-01 14:23:24,003 [INFO]   OK 11103203 | 2025-10-16 | 144 records fetched
+2026-07-01 14:23:25,517 [INFO] Fetching: Rodriguez | 2025-10-16
+2026-07-01 14:23:26,157 [INFO]   OK 11102201 | 2025-10-16 | 144 records fetched
+2026-07-01 14:23:27,669 [INFO] Fetching: Sto Nino | 2025-10-17
+2026-07-01 14:23:28,308 [INFO]   OK 11104201 | 2025-10-17 | 144 records fetched
+2026-07-01 14:23:29,814 [INFO] Fetching: Tumana Bridge | 2025-10-17
+2026-07-01 14:23:30,357 [INFO]   OK 11103203 | 2025-10-17 | 144 records fetched
+2026-07-01 14:23:31,867 [INFO] Fetching: Rodriguez | 2025-10-17
+2026-07-01 14:23:32,503 [INFO]   OK 11102201 | 2025-10-17 | 144 records fetched
+2026-07-01 14:23:34,005 [INFO] Fetching: Sto Nino | 2025-10-18
+2026-07-01 14:23:34,653 [INFO]   OK 11104201 | 2025-10-18 | 144 records fetched
+2026-07-01 14:23:36,161 [INFO] Fetching: Tumana Bridge | 2025-10-18
+2026-07-01 14:23:36,747 [INFO]   OK 11103203 | 2025-10-18 | 144 records fetched
+2026-07-01 14:23:38,254 [INFO] Fetching: Rodriguez | 2025-10-18
+2026-07-01 14:23:38,856 [INFO]   OK 11102201 | 2025-10-18 | 144 records fetched
+2026-07-01 14:23:39,447 [INFO]   [Checkpoint] 330/459 requests done | 47520 records saved
+2026-07-01 14:23:40,954 [INFO] Fetching: Sto Nino | 2025-10-19
+2026-07-01 14:23:41,506 [INFO]   OK 11104201 | 2025-10-19 | 144 records fetched
+2026-07-01 14:23:43,012 [INFO] Fetching: Tumana Bridge | 2025-10-19
+2026-07-01 14:23:43,543 [INFO]   OK 11103203 | 2025-10-19 | 144 records fetched
+2026-07-01 14:23:45,048 [INFO] Fetching: Rodriguez | 2025-10-19
+2026-07-01 14:23:45,642 [INFO]   OK 11102201 | 2025-10-19 | 144 records fetched
+2026-07-01 14:23:47,154 [INFO] Fetching: Sto Nino | 2025-10-20
+2026-07-01 14:23:47,656 [INFO]   OK 11104201 | 2025-10-20 | 144 records fetched
+2026-07-01 14:23:49,164 [INFO] Fetching: Tumana Bridge | 2025-10-20
+2026-07-01 14:23:49,834 [INFO]   OK 11103203 | 2025-10-20 | 144 records fetched
+2026-07-01 14:23:51,349 [INFO] Fetching: Rodriguez | 2025-10-20
+2026-07-01 14:23:51,858 [INFO]   OK 11102201 | 2025-10-20 | 144 records fetched
+2026-07-01 14:23:53,367 [INFO] Fetching: Sto Nino | 2025-10-21
+2026-07-01 14:23:54,009 [INFO]   OK 11104201 | 2025-10-21 | 144 records fetched
+2026-07-01 14:23:55,519 [INFO] Fetching: Tumana Bridge | 2025-10-21
+2026-07-01 14:23:56,159 [INFO]   OK 11103203 | 2025-10-21 | 144 records fetched
+2026-07-01 14:23:57,672 [INFO] Fetching: Rodriguez | 2025-10-21
+2026-07-01 14:23:58,205 [INFO]   OK 11102201 | 2025-10-21 | 144 records fetched
+2026-07-01 14:23:59,717 [INFO] Fetching: Sto Nino | 2025-10-22
+2026-07-01 14:24:00,257 [INFO]   OK 11104201 | 2025-10-22 | 144 records fetched
+2026-07-01 14:24:01,765 [INFO] Fetching: Tumana Bridge | 2025-10-22
+2026-07-01 14:24:02,308 [INFO]   OK 11103203 | 2025-10-22 | 144 records fetched
+2026-07-01 14:24:03,831 [INFO] Fetching: Rodriguez | 2025-10-22
+2026-07-01 14:24:04,374 [INFO]   OK 11102201 | 2025-10-22 | 144 records fetched
+2026-07-01 14:24:05,887 [INFO] Fetching: Sto Nino | 2025-10-23
+2026-07-01 14:24:06,437 [INFO]   OK 11104201 | 2025-10-23 | 144 records fetched
+2026-07-01 14:24:07,939 [INFO] Fetching: Tumana Bridge | 2025-10-23
+2026-07-01 14:24:08,548 [INFO]   OK 11103203 | 2025-10-23 | 144 records fetched
+2026-07-01 14:24:10,059 [INFO] Fetching: Rodriguez | 2025-10-23
+2026-07-01 14:24:10,701 [INFO]   OK 11102201 | 2025-10-23 | 144 records fetched
+2026-07-01 14:24:12,203 [INFO] Fetching: Sto Nino | 2025-10-24
+2026-07-01 14:24:12,693 [INFO]   OK 11104201 | 2025-10-24 | 144 records fetched
+2026-07-01 14:24:14,198 [INFO] Fetching: Tumana Bridge | 2025-10-24
+2026-07-01 14:24:14,816 [INFO]   OK 11103203 | 2025-10-24 | 144 records fetched
+2026-07-01 14:24:16,338 [INFO] Fetching: Rodriguez | 2025-10-24
+2026-07-01 14:24:16,946 [INFO]   OK 11102201 | 2025-10-24 | 144 records fetched
+2026-07-01 14:24:18,449 [INFO] Fetching: Sto Nino | 2025-10-25
+2026-07-01 14:24:19,118 [INFO]   OK 11104201 | 2025-10-25 | 144 records fetched
+2026-07-01 14:24:20,633 [INFO] Fetching: Tumana Bridge | 2025-10-25
+2026-07-01 14:24:21,345 [INFO]   OK 11103203 | 2025-10-25 | 144 records fetched
+2026-07-01 14:24:22,857 [INFO] Fetching: Rodriguez | 2025-10-25
+2026-07-01 14:24:23,398 [INFO]   OK 11102201 | 2025-10-25 | 144 records fetched
+2026-07-01 14:24:24,912 [INFO] Fetching: Sto Nino | 2025-10-26
+2026-07-01 14:24:25,547 [INFO]   OK 11104201 | 2025-10-26 | 144 records fetched
+2026-07-01 14:24:27,055 [INFO] Fetching: Tumana Bridge | 2025-10-26
+2026-07-01 14:24:27,697 [INFO]   OK 11103203 | 2025-10-26 | 144 records fetched
+2026-07-01 14:24:29,207 [INFO] Fetching: Rodriguez | 2025-10-26
+2026-07-01 14:24:29,748 [INFO]   OK 11102201 | 2025-10-26 | 144 records fetched
+2026-07-01 14:24:31,258 [INFO] Fetching: Sto Nino | 2025-10-27
+2026-07-01 14:24:32,101 [INFO]   OK 11104201 | 2025-10-27 | 144 records fetched
+2026-07-01 14:24:33,615 [INFO] Fetching: Tumana Bridge | 2025-10-27
+2026-07-01 14:24:34,150 [INFO]   OK 11103203 | 2025-10-27 | 144 records fetched
+2026-07-01 14:24:35,655 [INFO] Fetching: Rodriguez | 2025-10-27
+2026-07-01 14:24:36,196 [INFO]   OK 11102201 | 2025-10-27 | 144 records fetched
+2026-07-01 14:24:37,701 [INFO] Fetching: Sto Nino | 2025-10-28
+2026-07-01 14:24:38,349 [INFO]   OK 11104201 | 2025-10-28 | 144 records fetched
+2026-07-01 14:24:39,850 [INFO] Fetching: Tumana Bridge | 2025-10-28
+2026-07-01 14:24:40,397 [INFO]   OK 11103203 | 2025-10-28 | 144 records fetched
+2026-07-01 14:24:41,907 [INFO] Fetching: Rodriguez | 2025-10-28
+2026-07-01 14:24:42,444 [INFO]   OK 11102201 | 2025-10-28 | 144 records fetched
+2026-07-01 14:24:43,092 [INFO]   [Checkpoint] 360/459 requests done | 51840 records saved
+2026-07-01 14:24:44,607 [INFO] Fetching: Sto Nino | 2025-10-29
+2026-07-01 14:24:45,138 [INFO]   OK 11104201 | 2025-10-29 | 144 records fetched
+2026-07-01 14:24:46,658 [INFO] Fetching: Tumana Bridge | 2025-10-29
+2026-07-01 14:24:47,257 [INFO]   OK 11103203 | 2025-10-29 | 144 records fetched
+2026-07-01 14:24:48,768 [INFO] Fetching: Rodriguez | 2025-10-29
+2026-07-01 14:24:49,279 [INFO]   OK 11102201 | 2025-10-29 | 144 records fetched
+2026-07-01 14:24:50,785 [INFO] Fetching: Sto Nino | 2025-10-30
+2026-07-01 14:24:51,310 [INFO]   OK 11104201 | 2025-10-30 | 144 records fetched
+2026-07-01 14:24:52,828 [INFO] Fetching: Tumana Bridge | 2025-10-30
+2026-07-01 14:24:53,340 [INFO]   OK 11103203 | 2025-10-30 | 144 records fetched
+2026-07-01 14:24:54,840 [INFO] Fetching: Rodriguez | 2025-10-30
+2026-07-01 14:24:55,339 [INFO]   OK 11102201 | 2025-10-30 | 144 records fetched
+2026-07-01 14:24:56,855 [INFO] Fetching: Sto Nino | 2025-10-31
+2026-07-01 14:24:57,700 [INFO]   OK 11104201 | 2025-10-31 | 144 records fetched
+2026-07-01 14:24:59,205 [INFO] Fetching: Tumana Bridge | 2025-10-31
+2026-07-01 14:24:59,747 [INFO]   OK 11103203 | 2025-10-31 | 144 records fetched
+2026-07-01 14:25:01,258 [INFO] Fetching: Rodriguez | 2025-10-31
+2026-07-01 14:25:01,770 [INFO]   OK 11102201 | 2025-10-31 | 144 records fetched
+2026-07-01 14:25:03,287 [INFO] Fetching: Sto Nino | 2025-11-01
+2026-07-01 14:25:03,845 [INFO]   OK 11104201 | 2025-11-01 | 144 records fetched
+2026-07-01 14:25:05,356 [INFO] Fetching: Tumana Bridge | 2025-11-01
+2026-07-01 14:25:05,994 [INFO]   OK 11103203 | 2025-11-01 | 144 records fetched
+2026-07-01 14:25:07,508 [INFO] Fetching: Rodriguez | 2025-11-01
+2026-07-01 14:25:08,146 [INFO]   OK 11102201 | 2025-11-01 | 144 records fetched
+2026-07-01 14:25:09,653 [INFO] Fetching: Sto Nino | 2025-11-02
+2026-07-01 14:25:10,300 [INFO]   OK 11104201 | 2025-11-02 | 144 records fetched
+2026-07-01 14:25:11,809 [INFO] Fetching: Tumana Bridge | 2025-11-02
+2026-07-01 14:25:12,444 [INFO]   OK 11103203 | 2025-11-02 | 144 records fetched
+2026-07-01 14:25:13,961 [INFO] Fetching: Rodriguez | 2025-11-02
+2026-07-01 14:25:14,495 [INFO]   OK 11102201 | 2025-11-02 | 144 records fetched
+2026-07-01 14:25:16,000 [INFO] Fetching: Sto Nino | 2025-11-03
+2026-07-01 14:25:16,645 [INFO]   OK 11104201 | 2025-11-03 | 144 records fetched
+2026-07-01 14:25:18,158 [INFO] Fetching: Tumana Bridge | 2025-11-03
+2026-07-01 14:25:18,695 [INFO]   OK 11103203 | 2025-11-03 | 144 records fetched
+2026-07-01 14:25:20,207 [INFO] Fetching: Rodriguez | 2025-11-03
+2026-07-01 14:25:20,845 [INFO]   OK 11102201 | 2025-11-03 | 144 records fetched
+2026-07-01 14:25:22,358 [INFO] Fetching: Sto Nino | 2025-11-04
+2026-07-01 14:25:22,900 [INFO]   OK 11104201 | 2025-11-04 | 144 records fetched
+2026-07-01 14:25:24,408 [INFO] Fetching: Tumana Bridge | 2025-11-04
+2026-07-01 14:25:25,031 [INFO]   OK 11103203 | 2025-11-04 | 144 records fetched
+2026-07-01 14:25:26,545 [INFO] Fetching: Rodriguez | 2025-11-04
+2026-07-01 14:25:27,097 [INFO]   OK 11102201 | 2025-11-04 | 144 records fetched
+2026-07-01 14:25:28,609 [INFO] Fetching: Sto Nino | 2025-11-05
+2026-07-01 14:25:29,134 [INFO]   OK 11104201 | 2025-11-05 | 144 records fetched
+2026-07-01 14:25:30,638 [INFO] Fetching: Tumana Bridge | 2025-11-05
+2026-07-01 14:25:31,186 [INFO]   OK 11103203 | 2025-11-05 | 144 records fetched
+2026-07-01 14:25:32,693 [INFO] Fetching: Rodriguez | 2025-11-05
+2026-07-01 14:25:33,232 [INFO]   OK 11102201 | 2025-11-05 | 144 records fetched
+2026-07-01 14:25:34,740 [INFO] Fetching: Sto Nino | 2025-11-06
+2026-07-01 14:25:35,288 [INFO]   OK 11104201 | 2025-11-06 | 144 records fetched
+2026-07-01 14:25:36,805 [INFO] Fetching: Tumana Bridge | 2025-11-06
+2026-07-01 14:25:37,428 [INFO]   OK 11103203 | 2025-11-06 | 144 records fetched
+2026-07-01 14:25:38,943 [INFO] Fetching: Rodriguez | 2025-11-06
+2026-07-01 14:25:39,482 [INFO]   OK 11102201 | 2025-11-06 | 144 records fetched
+2026-07-01 14:25:40,996 [INFO] Fetching: Sto Nino | 2025-11-07
+2026-07-01 14:25:41,529 [INFO]   OK 11104201 | 2025-11-07 | 144 records fetched
+2026-07-01 14:25:43,044 [INFO] Fetching: Tumana Bridge | 2025-11-07
+2026-07-01 14:25:43,575 [INFO]   OK 11103203 | 2025-11-07 | 144 records fetched
+2026-07-01 14:25:45,079 [INFO] Fetching: Rodriguez | 2025-11-07
+2026-07-01 14:25:45,623 [INFO]   OK 11102201 | 2025-11-07 | 144 records fetched
+2026-07-01 14:25:46,553 [INFO]   [Checkpoint] 390/459 requests done | 56160 records saved
+2026-07-01 14:25:48,058 [INFO] Fetching: Sto Nino | 2025-11-08
+2026-07-01 14:25:48,699 [INFO]   OK 11104201 | 2025-11-08 | 144 records fetched
+2026-07-01 14:25:50,204 [INFO] Fetching: Tumana Bridge | 2025-11-08
+2026-07-01 14:25:50,717 [INFO]   OK 11103203 | 2025-11-08 | 144 records fetched
+2026-07-01 14:25:52,225 [INFO] Fetching: Rodriguez | 2025-11-08
+2026-07-01 14:25:52,790 [INFO]   OK 11102201 | 2025-11-08 | 144 records fetched
+2026-07-01 14:25:54,308 [INFO] Fetching: Sto Nino | 2025-11-09
+2026-07-01 14:25:54,928 [INFO]   OK 11104201 | 2025-11-09 | 144 records fetched
+2026-07-01 14:25:56,445 [INFO] Fetching: Tumana Bridge | 2025-11-09
+2026-07-01 14:25:56,990 [INFO]   OK 11103203 | 2025-11-09 | 144 records fetched
+2026-07-01 14:25:58,507 [INFO] Fetching: Rodriguez | 2025-11-09
+2026-07-01 14:25:59,038 [INFO]   OK 11102201 | 2025-11-09 | 144 records fetched
+2026-07-01 14:26:00,543 [INFO] Fetching: Sto Nino | 2025-11-10
+2026-07-01 14:26:01,085 [INFO]   OK 11104201 | 2025-11-10 | 144 records fetched
+2026-07-01 14:26:02,603 [INFO] Fetching: Tumana Bridge | 2025-11-10
+2026-07-01 14:26:03,140 [INFO]   OK 11103203 | 2025-11-10 | 144 records fetched
+2026-07-01 14:26:04,645 [INFO] Fetching: Rodriguez | 2025-11-10
+2026-07-01 14:26:05,184 [INFO]   OK 11102201 | 2025-11-10 | 144 records fetched
+2026-07-01 14:26:06,702 [INFO] Fetching: Sto Nino | 2025-11-11
+2026-07-01 14:26:07,334 [INFO]   OK 11104201 | 2025-11-11 | 144 records fetched
+2026-07-01 14:26:08,843 [INFO] Fetching: Tumana Bridge | 2025-11-11
+2026-07-01 14:26:09,384 [INFO]   OK 11103203 | 2025-11-11 | 144 records fetched
+2026-07-01 14:26:10,902 [INFO] Fetching: Rodriguez | 2025-11-11
+2026-07-01 14:26:11,534 [INFO]   OK 11102201 | 2025-11-11 | 144 records fetched
+2026-07-01 14:26:13,045 [INFO] Fetching: Sto Nino | 2025-11-12
+2026-07-01 14:26:13,592 [INFO]   OK 11104201 | 2025-11-12 | 144 records fetched
+2026-07-01 14:26:15,102 [INFO] Fetching: Tumana Bridge | 2025-11-12
+2026-07-01 14:26:15,728 [INFO]   OK 11103203 | 2025-11-12 | 144 records fetched
+2026-07-01 14:26:17,245 [INFO] Fetching: Rodriguez | 2025-11-12
+2026-07-01 14:26:17,777 [INFO]   OK 11102201 | 2025-11-12 | 144 records fetched
+2026-07-01 14:26:19,296 [INFO] Fetching: Sto Nino | 2025-11-13
+2026-07-01 14:26:19,823 [INFO]   OK 11104201 | 2025-11-13 | 144 records fetched
+2026-07-01 14:26:21,332 [INFO] Fetching: Tumana Bridge | 2025-11-13
+2026-07-01 14:26:21,973 [INFO]   OK 11103203 | 2025-11-13 | 144 records fetched
+2026-07-01 14:26:23,490 [INFO] Fetching: Rodriguez | 2025-11-13
+2026-07-01 14:26:24,127 [INFO]   OK 11102201 | 2025-11-13 | 144 records fetched
+2026-07-01 14:26:25,640 [INFO] Fetching: Sto Nino | 2025-11-14
+2026-07-01 14:26:26,176 [INFO]   OK 11104201 | 2025-11-14 | 144 records fetched
+2026-07-01 14:26:27,680 [INFO] Fetching: Tumana Bridge | 2025-11-14
+2026-07-01 14:26:28,225 [INFO]   OK 11103203 | 2025-11-14 | 144 records fetched
+2026-07-01 14:26:29,732 [INFO] Fetching: Rodriguez | 2025-11-14
+2026-07-01 14:26:30,250 [INFO]   OK 11102201 | 2025-11-14 | 144 records fetched
+2026-07-01 14:26:31,761 [INFO] Fetching: Sto Nino | 2025-11-15
+2026-07-01 14:26:32,422 [INFO]   OK 11104201 | 2025-11-15 | 144 records fetched
+2026-07-01 14:26:33,924 [INFO] Fetching: Tumana Bridge | 2025-11-15
+2026-07-01 14:26:34,431 [INFO]   OK 11103203 | 2025-11-15 | 144 records fetched
+2026-07-01 14:26:35,946 [INFO] Fetching: Rodriguez | 2025-11-15
+2026-07-01 14:26:36,519 [INFO]   OK 11102201 | 2025-11-15 | 144 records fetched
+2026-07-01 14:26:38,023 [INFO] Fetching: Sto Nino | 2025-11-16
+2026-07-01 14:26:38,565 [INFO]   OK 11104201 | 2025-11-16 | 144 records fetched
+2026-07-01 14:26:40,072 [INFO] Fetching: Tumana Bridge | 2025-11-16
+2026-07-01 14:26:40,574 [INFO]   OK 11103203 | 2025-11-16 | 144 records fetched
+2026-07-01 14:26:42,092 [INFO] Fetching: Rodriguez | 2025-11-16
+2026-07-01 14:26:42,660 [INFO]   OK 11102201 | 2025-11-16 | 144 records fetched
+2026-07-01 14:26:44,165 [INFO] Fetching: Sto Nino | 2025-11-17
+2026-07-01 14:26:44,810 [INFO]   OK 11104201 | 2025-11-17 | 144 records fetched
+2026-07-01 14:26:46,329 [INFO] Fetching: Tumana Bridge | 2025-11-17
+2026-07-01 14:26:46,962 [INFO]   OK 11103203 | 2025-11-17 | 144 records fetched
+2026-07-01 14:26:48,467 [INFO] Fetching: Rodriguez | 2025-11-17
+2026-07-01 14:26:48,985 [INFO]   OK 11102201 | 2025-11-17 | 144 records fetched
+2026-07-01 14:26:49,768 [INFO]   [Checkpoint] 420/459 requests done | 60480 records saved
+2026-07-01 14:26:51,272 [INFO] Fetching: Sto Nino | 2025-11-18
+2026-07-01 14:26:51,786 [INFO]   OK 11104201 | 2025-11-18 | 144 records fetched
+2026-07-01 14:26:53,301 [INFO] Fetching: Tumana Bridge | 2025-11-18
+2026-07-01 14:26:53,817 [INFO]   OK 11103203 | 2025-11-18 | 144 records fetched
+2026-07-01 14:26:55,324 [INFO] Fetching: Rodriguez | 2025-11-18
+2026-07-01 14:26:55,974 [INFO]   OK 11102201 | 2025-11-18 | 144 records fetched
+2026-07-01 14:26:57,483 [INFO] Fetching: Sto Nino | 2025-11-19
+2026-07-01 14:26:58,121 [INFO]   OK 11104201 | 2025-11-19 | 144 records fetched
+2026-07-01 14:26:59,623 [INFO] Fetching: Tumana Bridge | 2025-11-19
+2026-07-01 14:27:00,103 [INFO]   OK 11103203 | 2025-11-19 | 144 records fetched
+2026-07-01 14:27:01,618 [INFO] Fetching: Rodriguez | 2025-11-19
+2026-07-01 14:27:02,213 [INFO]   OK 11102201 | 2025-11-19 | 144 records fetched
+2026-07-01 14:27:03,714 [INFO] Fetching: Sto Nino | 2025-11-20
+2026-07-01 14:27:04,269 [INFO]   OK 11104201 | 2025-11-20 | 144 records fetched
+2026-07-01 14:27:05,777 [INFO] Fetching: Tumana Bridge | 2025-11-20
+2026-07-01 14:27:06,419 [INFO]   OK 11103203 | 2025-11-20 | 144 records fetched
+2026-07-01 14:27:07,926 [INFO] Fetching: Rodriguez | 2025-11-20
+2026-07-01 14:27:08,568 [INFO]   OK 11102201 | 2025-11-20 | 144 records fetched
+2026-07-01 14:27:10,082 [INFO] Fetching: Sto Nino | 2025-11-21
+2026-07-01 14:27:10,662 [INFO]   OK 11104201 | 2025-11-21 | 144 records fetched
+2026-07-01 14:27:12,174 [INFO] Fetching: Tumana Bridge | 2025-11-21
+2026-07-01 14:27:12,723 [INFO]   OK 11103203 | 2025-11-21 | 144 records fetched
+2026-07-01 14:27:14,233 [INFO] Fetching: Rodriguez | 2025-11-21
+2026-07-01 14:27:14,774 [INFO]   OK 11102201 | 2025-11-21 | 144 records fetched
+2026-07-01 14:27:16,281 [INFO] Fetching: Sto Nino | 2025-11-22
+2026-07-01 14:27:17,136 [INFO]   OK 11104201 | 2025-11-22 | 144 records fetched
+2026-07-01 14:27:18,648 [INFO] Fetching: Tumana Bridge | 2025-11-22
+2026-07-01 14:27:19,237 [INFO]   OK 11103203 | 2025-11-22 | 144 records fetched
+2026-07-01 14:27:20,749 [INFO] Fetching: Rodriguez | 2025-11-22
+2026-07-01 14:27:21,282 [INFO]   OK 11102201 | 2025-11-22 | 144 records fetched
+2026-07-01 14:27:22,787 [INFO] Fetching: Sto Nino | 2025-11-23
+2026-07-01 14:27:23,572 [INFO]   OK 11104201 | 2025-11-23 | 144 records fetched
+2026-07-01 14:27:25,076 [INFO] Fetching: Tumana Bridge | 2025-11-23
+2026-07-01 14:27:25,669 [INFO]   OK 11103203 | 2025-11-23 | 144 records fetched
+2026-07-01 14:27:27,186 [INFO] Fetching: Rodriguez | 2025-11-23
+2026-07-01 14:27:27,932 [INFO]   OK 11102201 | 2025-11-23 | 144 records fetched
+2026-07-01 14:27:29,441 [INFO] Fetching: Sto Nino | 2025-11-24
+2026-07-01 14:27:30,072 [INFO]   OK 11104201 | 2025-11-24 | 144 records fetched
+2026-07-01 14:27:31,586 [INFO] Fetching: Tumana Bridge | 2025-11-24
+2026-07-01 14:27:32,223 [INFO]   OK 11103203 | 2025-11-24 | 144 records fetched
+2026-07-01 14:27:33,731 [INFO] Fetching: Rodriguez | 2025-11-24
+2026-07-01 14:27:34,271 [INFO]   OK 11102201 | 2025-11-24 | 144 records fetched
+2026-07-01 14:27:35,790 [INFO] Fetching: Sto Nino | 2025-11-25
+2026-07-01 14:27:36,421 [INFO]   OK 11104201 | 2025-11-25 | 144 records fetched
+2026-07-01 14:27:37,937 [INFO] Fetching: Tumana Bridge | 2025-11-25
+2026-07-01 14:27:38,570 [INFO]   OK 11103203 | 2025-11-25 | 144 records fetched
+2026-07-01 14:27:40,095 [INFO] Fetching: Rodriguez | 2025-11-25
+2026-07-01 14:27:40,614 [INFO]   OK 11102201 | 2025-11-25 | 144 records fetched
+2026-07-01 14:27:42,122 [INFO] Fetching: Sto Nino | 2025-11-26
+2026-07-01 14:27:42,773 [INFO]   OK 11104201 | 2025-11-26 | 144 records fetched
+2026-07-01 14:27:44,283 [INFO] Fetching: Tumana Bridge | 2025-11-26
+2026-07-01 14:27:44,819 [INFO]   OK 11103203 | 2025-11-26 | 144 records fetched
+2026-07-01 14:27:46,331 [INFO] Fetching: Rodriguez | 2025-11-26
+2026-07-01 14:27:46,969 [INFO]   OK 11102201 | 2025-11-26 | 144 records fetched
+2026-07-01 14:27:48,487 [INFO] Fetching: Sto Nino | 2025-11-27
+2026-07-01 14:27:49,017 [INFO]   OK 11104201 | 2025-11-27 | 144 records fetched
+2026-07-01 14:27:50,525 [INFO] Fetching: Tumana Bridge | 2025-11-27
+2026-07-01 14:27:51,082 [INFO]   OK 11103203 | 2025-11-27 | 144 records fetched
+2026-07-01 14:27:52,588 [INFO] Fetching: Rodriguez | 2025-11-27
+2026-07-01 14:27:53,095 [INFO]   OK 11102201 | 2025-11-27 | 144 records fetched
+2026-07-01 14:27:53,957 [INFO]   [Checkpoint] 450/459 requests done | 64800 records saved
+2026-07-01 14:27:55,470 [INFO] Fetching: Sto Nino | 2025-11-28
+2026-07-01 14:27:56,080 [INFO]   OK 11104201 | 2025-11-28 | 144 records fetched
+2026-07-01 14:27:57,588 [INFO] Fetching: Tumana Bridge | 2025-11-28
+2026-07-01 14:27:58,098 [INFO]   OK 11103203 | 2025-11-28 | 144 records fetched
+2026-07-01 14:27:59,604 [INFO] Fetching: Rodriguez | 2025-11-28
+2026-07-01 14:28:00,282 [INFO]   OK 11102201 | 2025-11-28 | 144 records fetched
+2026-07-01 14:28:01,790 [INFO] Fetching: Sto Nino | 2025-11-29
+2026-07-01 14:28:02,431 [INFO]   OK 11104201 | 2025-11-29 | 144 records fetched
+2026-07-01 14:28:03,932 [INFO] Fetching: Tumana Bridge | 2025-11-29
+2026-07-01 14:28:04,581 [INFO]   OK 11103203 | 2025-11-29 | 144 records fetched
+2026-07-01 14:28:06,089 [INFO] Fetching: Rodriguez | 2025-11-29
+2026-07-01 14:28:06,735 [INFO]   OK 11102201 | 2025-11-29 | 144 records fetched
+2026-07-01 14:28:08,246 [INFO] Fetching: Sto Nino | 2025-11-30
+2026-07-01 14:28:08,880 [INFO]   OK 11104201 | 2025-11-30 | 144 records fetched
+2026-07-01 14:28:10,384 [INFO] Fetching: Tumana Bridge | 2025-11-30
+2026-07-01 14:28:10,910 [INFO]   OK 11103203 | 2025-11-30 | 144 records fetched
+2026-07-01 14:28:12,434 [INFO] Fetching: Rodriguez | 2025-11-30
+2026-07-01 14:28:12,975 [INFO]   OK 11102201 | 2025-11-30 | 144 records fetched
+2026-07-01 14:28:15,248 [INFO] ============================================================
+2026-07-01 14:28:15,248 [INFO] SCRAPE COMPLETE
+2026-07-01 14:28:15,248 [INFO] Total records : 66096
+2026-07-01 14:28:15,248 [INFO] Failed days   : 0
+2026-07-01 14:28:15,248 [INFO] ============================================================
