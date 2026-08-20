@@ -1,5 +1,39 @@
-venv/ 
-.env 
-__pycache__/ 
-*.pyc 
-data/raw/*.csv 
+# Virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Environment variables
+.env
+
+# Large raw data files (too big for GitHub)
+data/raw/*.csv
+
+# Checkpoint files
+data/raw/*checkpoint*
+scraper/wl_progress.txt
+scraper/rf_progress.txt
+scraper/wl_scrape_log.txt
+scraper/rf_scrape_log.txt
+scraper/rainfall_scrape_log.txt
+scraper/scrape_log.txt
+
+# Trained model weights (large files)
+models/lstm/*.h5
+models/lstm/*.keras
+models/random_forest/*.pkl
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code settings
+.vscode/
+
+# Windows system files
+Thumbs.db
+desktop.ini
