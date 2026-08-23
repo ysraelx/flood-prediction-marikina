@@ -230,6 +230,8 @@ def run_preprocessing(
     wl_raw = load_water_level(wl_path)
     wl_raw = wl_raw[wl_raw['station_name'] != 'Angono'].copy()
     log.info("Excluded Angono (no official PAGASA thresholds)")
+    wl_raw['water_level'] = wl_raw['water_level'].replace(0.0, np.nan)
+    log.info("Replaced 0.0 water level readings with NaN (sensor dropout)")
     rf_raw = load_rainfall(rf_path)
 
     # ── 2. Resample to hourly ──────────────────────────────────────────────────
