@@ -1,0 +1,22 @@
+station,horizon,rmse,mae,r2,rmse_pass,mae_pass,r2_pass,all_pass,val_loss,epochs,best_epoch
+Sto Nino,1,0.1016,0.0297,0.983,True,True,True,True,0.00013,50,40
+Sto Nino,3,0.1679,0.0654,0.9537,True,True,True,True,0.000762,42,32
+Sto Nino,6,0.2658,0.0923,0.884,True,True,True,True,0.00197,33,23
+Tumana Bridge,1,0.0863,0.0252,0.9871,True,True,True,True,0.000403,58,48
+Tumana Bridge,3,0.1557,0.0465,0.9581,True,True,True,True,0.00126,66,56
+Tumana Bridge,6,0.2426,0.0801,0.8984,True,True,True,True,0.002169,31,21
+Rodriguez,1,0.0582,0.0155,0.9867,True,True,True,True,0.000634,100,95
+Rodriguez,3,0.1109,0.0352,0.9518,True,True,True,True,0.002474,74,64
+Rodriguez,6,0.1645,0.0581,0.894,True,True,True,True,0.0054,59,49
+Nangka,1,0.1336,0.0656,0.8935,True,True,True,True,0.001851,41,31
+Nangka,3,0.2558,0.1157,0.6098,True,True,False,False,0.006062,20,10
+Nangka,6,0.2571,0.1401,0.6059,True,True,False,False,0.008527,11,1
+San Mateo-1,1,0.0909,0.0455,0.9723,True,True,True,True,0.00026,20,10
+San Mateo-1,3,0.2064,0.1141,0.8573,True,True,True,True,0.00137,29,19
+San Mateo-1,6,0.2812,0.1655,0.7354,True,True,False,False,0.002909,25,15
+Montalban,1,0.0522,0.0118,0.9741,True,True,True,True,0.000506,59,49
+Montalban,3,0.1046,0.0305,0.8963,True,True,True,True,0.001994,58,48
+Montalban,6,0.1409,0.0486,0.8121,True,True,False,False,0.003546,36,26
+Burgos,1,0.2048,0.1979,-0.6811,True,True,False,False,0.000151,14,4
+Burgos,3,0.0798,0.0499,0.7445,True,True,False,False,0.00015,12,2
+Burgos,6,0.1362,0.1233,0.2546,True,True,False,False,0.000165,11,1
