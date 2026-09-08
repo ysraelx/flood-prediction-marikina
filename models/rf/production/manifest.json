@@ -1,0 +1,254 @@
+[
+  {
+    "station": "Sto Nino",
+    "horizon": 1,
+    "n_samples": 16903,
+    "class_distribution": {
+      "Alert": 84,
+      "Critical": 32,
+      "Normal": 16787
+    },
+    "pca_path": "models/rf/production\\Sto_Nino_h1_pca.joblib",
+    "rf_path": "models/rf/production\\Sto_Nino_h1_rf.joblib"
+  },
+  {
+    "station": "Sto Nino",
+    "horizon": 3,
+    "n_samples": 16901,
+    "class_distribution": {
+      "Alert": 84,
+      "Critical": 32,
+      "Normal": 16785
+    },
+    "pca_path": "models/rf/production\\Sto_Nino_h3_pca.joblib",
+    "rf_path": "models/rf/production\\Sto_Nino_h3_rf.joblib"
+  },
+  {
+    "station": "Sto Nino",
+    "horizon": 6,
+    "n_samples": 16898,
+    "class_distribution": {
+      "Alert": 84,
+      "Critical": 32,
+      "Normal": 16782
+    },
+    "pca_path": "models/rf/production\\Sto_Nino_h6_pca.joblib",
+    "rf_path": "models/rf/production\\Sto_Nino_h6_rf.joblib"
+  },
+  {
+    "station": "Tumana Bridge",
+    "horizon": 1,
+    "n_samples": 17244,
+    "class_distribution": {
+      "Alert": 22,
+      "Critical": 18,
+      "Normal": 17204
+    },
+    "pca_path": "models/rf/production\\Tumana_Bridge_h1_pca.joblib",
+    "rf_path": "models/rf/production\\Tumana_Bridge_h1_rf.joblib"
+  },
+  {
+    "station": "Tumana Bridge",
+    "horizon": 3,
+    "n_samples": 17242,
+    "class_distribution": {
+      "Alert": 22,
+      "Critical": 18,
+      "Normal": 17202
+    },
+    "pca_path": "models/rf/production\\Tumana_Bridge_h3_pca.joblib",
+    "rf_path": "models/rf/production\\Tumana_Bridge_h3_rf.joblib"
+  },
+  {
+    "station": "Tumana Bridge",
+    "horizon": 6,
+    "n_samples": 17239,
+    "class_distribution": {
+      "Alert": 22,
+      "Critical": 18,
+      "Normal": 17199
+    },
+    "pca_path": "models/rf/production\\Tumana_Bridge_h6_pca.joblib",
+    "rf_path": "models/rf/production\\Tumana_Bridge_h6_rf.joblib"
+  },
+  {
+    "station": "Rodriguez",
+    "horizon": 1,
+    "n_samples": 15655,
+    "class_distribution": {
+      "Alert": 514,
+      "Critical": 4,
+      "Normal": 15137
+    },
+    "pca_path": "models/rf/production\\Rodriguez_h1_pca.joblib",
+    "rf_path": "models/rf/production\\Rodriguez_h1_rf.joblib"
+  },
+  {
+    "station": "Rodriguez",
+    "horizon": 3,
+    "n_samples": 15653,
+    "class_distribution": {
+      "Alert": 514,
+      "Critical": 4,
+      "Normal": 15135
+    },
+    "pca_path": "models/rf/production\\Rodriguez_h3_pca.joblib",
+    "rf_path": "models/rf/production\\Rodriguez_h3_rf.joblib"
+  },
+  {
+    "station": "Rodriguez",
+    "horizon": 6,
+    "n_samples": 15650,
+    "class_distribution": {
+      "Alert": 514,
+      "Critical": 4,
+      "Normal": 15132
+    },
+    "pca_path": "models/rf/production\\Rodriguez_h6_pca.joblib",
+    "rf_path": "models/rf/production\\Rodriguez_h6_rf.joblib"
+  },
+  {
+    "station": "Nangka",
+    "horizon": 1,
+    "n_samples": 16938,
+    "class_distribution": {
+      "Alert": 2584,
+      "Critical": 67,
+      "Normal": 14287
+    },
+    "pca_path": "models/rf/production\\Nangka_h1_pca.joblib",
+    "rf_path": "models/rf/production\\Nangka_h1_rf.joblib"
+  },
+  {
+    "station": "Nangka",
+    "horizon": 3,
+    "n_samples": 16936,
+    "class_distribution": {
+      "Alert": 2584,
+      "Critical": 67,
+      "Normal": 14285
+    },
+    "pca_path": "models/rf/production\\Nangka_h3_pca.joblib",
+    "rf_path": "models/rf/production\\Nangka_h3_rf.joblib"
+  },
+  {
+    "station": "Nangka",
+    "horizon": 6,
+    "n_samples": 16933,
+    "class_distribution": {
+      "Alert": 2584,
+      "Critical": 67,
+      "Normal": 14282
+    },
+    "pca_path": "models/rf/production\\Nangka_h6_pca.joblib",
+    "rf_path": "models/rf/production\\Nangka_h6_rf.joblib"
+  },
+  {
+    "station": "San Mateo-1",
+    "horizon": 1,
+    "n_samples": 15821,
+    "class_distribution": {
+      "Alert": 81,
+      "Critical": 198,
+      "Normal": 15542
+    },
+    "pca_path": "models/rf/production\\San_Mateo_1_h1_pca.joblib",
+    "rf_path": "models/rf/production\\San_Mateo_1_h1_rf.joblib"
+  },
+  {
+    "station": "San Mateo-1",
+    "horizon": 3,
+    "n_samples": 15819,
+    "class_distribution": {
+      "Alert": 81,
+      "Critical": 198,
+      "Normal": 15540
+    },
+    "pca_path": "models/rf/production\\San_Mateo_1_h3_pca.joblib",
+    "rf_path": "models/rf/production\\San_Mateo_1_h3_rf.joblib"
+  },
+  {
+    "station": "San Mateo-1",
+    "horizon": 6,
+    "n_samples": 15816,
+    "class_distribution": {
+      "Alert": 81,
+      "Critical": 198,
+      "Normal": 15537
+    },
+    "pca_path": "models/rf/production\\San_Mateo_1_h6_pca.joblib",
+    "rf_path": "models/rf/production\\San_Mateo_1_h6_rf.joblib"
+  },
+  {
+    "station": "Montalban",
+    "horizon": 1,
+    "n_samples": 16962,
+    "class_distribution": {
+      "Alert": 601,
+      "Critical": 477,
+      "Normal": 15884
+    },
+    "pca_path": "models/rf/production\\Montalban_h1_pca.joblib",
+    "rf_path": "models/rf/production\\Montalban_h1_rf.joblib"
+  },
+  {
+    "station": "Montalban",
+    "horizon": 3,
+    "n_samples": 16960,
+    "class_distribution": {
+      "Alert": 601,
+      "Critical": 477,
+      "Normal": 15882
+    },
+    "pca_path": "models/rf/production\\Montalban_h3_pca.joblib",
+    "rf_path": "models/rf/production\\Montalban_h3_rf.joblib"
+  },
+  {
+    "station": "Montalban",
+    "horizon": 6,
+    "n_samples": 16957,
+    "class_distribution": {
+      "Alert": 601,
+      "Critical": 477,
+      "Normal": 15879
+    },
+    "pca_path": "models/rf/production\\Montalban_h6_pca.joblib",
+    "rf_path": "models/rf/production\\Montalban_h6_rf.joblib"
+  },
+  {
+    "station": "Burgos",
+    "horizon": 1,
+    "n_samples": 16589,
+    "class_distribution": {
+      "Alert": 1549,
+      "Critical": 93,
+      "Normal": 14947
+    },
+    "pca_path": "models/rf/production\\Burgos_h1_pca.joblib",
+    "rf_path": "models/rf/production\\Burgos_h1_rf.joblib"
+  },
+  {
+    "station": "Burgos",
+    "horizon": 3,
+    "n_samples": 16587,
+    "class_distribution": {
+      "Alert": 1549,
+      "Critical": 93,
+      "Normal": 14945
+    },
+    "pca_path": "models/rf/production\\Burgos_h3_pca.joblib",
+    "rf_path": "models/rf/production\\Burgos_h3_rf.joblib"
+  },
+  {
+    "station": "Burgos",
+    "horizon": 6,
+    "n_samples": 16584,
+    "class_distribution": {
+      "Alert": 1549,
+      "Critical": 93,
+      "Normal": 14942
+    },
+    "pca_path": "models/rf/production\\Burgos_h6_pca.joblib",
+    "rf_path": "models/rf/production\\Burgos_h6_rf.joblib"
+  }
+]

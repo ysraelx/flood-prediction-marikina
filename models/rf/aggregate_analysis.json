@@ -1,0 +1,133 @@
+{
+  "macro_f1_aggregate": {
+    "metric": "Macro-F1",
+    "mean_m3": 0.789728721712463,
+    "mean_m4": 0.8374905087446878,
+    "mean_delta": 0.04776178703222472,
+    "n_positive": 20,
+    "n_total": 21,
+    "t_stat": 4.942532759823668,
+    "p_two_sided": 7.844595443250296e-05,
+    "p_one_sided": 3.922297721625148e-05,
+    "wilcoxon_p": 0.00013065338134765625
+  },
+  "critical_recall_aggregate": {
+    "metric": "Critical-Recall",
+    "mean_m3": 0.6225181275839171,
+    "mean_m4": 0.6722261315682369,
+    "mean_delta": 0.04970800398431977,
+    "n_positive": 14,
+    "n_total": 21,
+    "t_stat": 2.1075342550859486,
+    "p_two_sided": 0.0478898868855349,
+    "p_one_sided": 0.02394494344276745,
+    "wilcoxon_p": 0.020773157643794497
+  },
+  "per_combo_f1_deltas": [
+    {
+      "station": "Tumana Bridge",
+      "horizon": 6,
+      "delta_f1": -0.07248227122809447
+    },
+    {
+      "station": "Sto Nino",
+      "horizon": 1,
+      "delta_f1": 0.0035838782511323775
+    },
+    {
+      "station": "Montalban",
+      "horizon": 1,
+      "delta_f1": 0.0050826738343697775
+    },
+    {
+      "station": "Nangka",
+      "horizon": 1,
+      "delta_f1": 0.01664870755586534
+    },
+    {
+      "station": "Montalban",
+      "horizon": 3,
+      "delta_f1": 0.018383706660852206
+    },
+    {
+      "station": "San Mateo-1",
+      "horizon": 1,
+      "delta_f1": 0.020618495949114135
+    },
+    {
+      "station": "Sto Nino",
+      "horizon": 3,
+      "delta_f1": 0.0234302352855138
+    },
+    {
+      "station": "Burgos",
+      "horizon": 1,
+      "delta_f1": 0.027402769244386782
+    },
+    {
+      "station": "San Mateo-1",
+      "horizon": 3,
+      "delta_f1": 0.03527174895428187
+    },
+    {
+      "station": "Montalban",
+      "horizon": 6,
+      "delta_f1": 0.038474090027652674
+    },
+    {
+      "station": "Nangka",
+      "horizon": 3,
+      "delta_f1": 0.04819429413144061
+    },
+    {
+      "station": "Tumana Bridge",
+      "horizon": 1,
+      "delta_f1": 0.05768165463182773
+    },
+    {
+      "station": "Nangka",
+      "horizon": 6,
+      "delta_f1": 0.058024601179819
+    },
+    {
+      "station": "Burgos",
+      "horizon": 6,
+      "delta_f1": 0.0582579601298977
+    },
+    {
+      "station": "Burgos",
+      "horizon": 3,
+      "delta_f1": 0.06568174522210557
+    },
+    {
+      "station": "Rodriguez",
+      "horizon": 3,
+      "delta_f1": 0.08856172096036741
+    },
+    {
+      "station": "Rodriguez",
+      "horizon": 6,
+      "delta_f1": 0.09416106824295478
+    },
+    {
+      "station": "Rodriguez",
+      "horizon": 1,
+      "delta_f1": 0.09915525660953284
+    },
+    {
+      "station": "San Mateo-1",
+      "horizon": 6,
+      "delta_f1": 0.10083010352257593
+    },
+    {
+      "station": "Tumana Bridge",
+      "horizon": 3,
+      "delta_f1": 0.1078027202895957
+    },
+    {
+      "station": "Sto Nino",
+      "horizon": 6,
+      "delta_f1": 0.10823236822152738
+    }
+  ]
+}
