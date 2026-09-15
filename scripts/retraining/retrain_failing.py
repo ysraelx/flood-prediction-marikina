@@ -1,4 +1,12 @@
 # retrain_failing.py
+
+import sys
+import os
+
+PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
+sys.path.insert(0, PROJECT_ROOT)
+os.chdir(PROJECT_ROOT)
+
 import logging
 import numpy as np
 from src.models.lstm_model import train_lstm

@@ -1,4 +1,12 @@
-# aggregate_analysis.py — run from project root: python aggregate_analysis.py
+# scripts/analysis/aggregate_analysis.py
+# Run from anywhere: python scripts/analysis/aggregate_analysis.py
+
+import sys
+import os
+
+PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
+sys.path.insert(0, PROJECT_ROOT)
+os.chdir(PROJECT_ROOT)
 
 import json
 import numpy as np
@@ -55,7 +63,6 @@ def main():
     f1_result = run_aggregate_test(results, 'macro_f1_mean', 'Macro-F1')
     recall_result = run_aggregate_test(results, 'critical_recall_mean', 'Critical-Recall')
 
-    # ── Per-combo detail, sorted worst-to-best on F1 delta, for spotting outliers ──
     print(f"\n{'='*60}")
     print("PER-COMBO DELTAS (Macro-F1), sorted ascending")
     print(f"{'='*60}")
@@ -68,7 +75,6 @@ def main():
         flag = "  <-- outlier" if delta < 0 else ""
         print(f"  {station:15} h{horizon}  ΔF1={delta:+.4f}{flag}")
 
-    # ── Save summary ──────────────────────────────────────────────────────
     out = {
         'macro_f1_aggregate': f1_result,
         'critical_recall_aggregate': recall_result,

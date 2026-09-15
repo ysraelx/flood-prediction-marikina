@@ -1,3 +1,13 @@
+# scripts/debug/diagnose_burgos.py
+# Run from anywhere: python scripts/debug/diagnose_burgos.py
+
+import sys
+import os
+
+PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
+sys.path.insert(0, PROJECT_ROOT)
+os.chdir(PROJECT_ROOT)
+
 import pandas as pd
 import numpy as np
 

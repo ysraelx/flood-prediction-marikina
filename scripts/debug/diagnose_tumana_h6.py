@@ -1,5 +1,12 @@
 # diagnose_tumana_h6.py — run from project root: python diagnose_tumana_h6.py
 
+import sys
+import os
+
+PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
+sys.path.insert(0, PROJECT_ROOT)
+os.chdir(PROJECT_ROOT)
+
 import numpy as np
 from src.models.rf_comparison import load_station_horizon
 

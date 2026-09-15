@@ -1,3 +1,10 @@
+import sys
+import os
+
+PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
+sys.path.insert(0, PROJECT_ROOT)
+os.chdir(PROJECT_ROOT)
+
 import pandas as pd
 
 wl = pd.read_csv('data/raw/water_level_marikina.csv', parse_dates=['datetime'])
